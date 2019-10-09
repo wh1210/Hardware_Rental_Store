@@ -1,0 +1,7 @@
+### macOS ###
+.DS_Store
+
+### PyCharm ###
+.idea/
+*.iml
+out/
