@@ -28,4 +28,17 @@ public final class Constants {
     public static final double ACCESSORY_KIT_PRICE = 2.00;
     public static final double PROTECTIVE_GEAR_PACKAGE_PRICE = 3.00;
 
+    // #tools by each customer
+    public static final int MIN_NUM_TOOLS_BY_CASUAL = 1;
+    public static final int MAX_NUM_TOOLS_BY_CASUAL = 2;
+    public static final int NUM_TOOLS_BY_BUSINESS = 3;
+    public static final int MIN_NUM_TOOLS_BY_REGULAR = 1;
+    public static final int MAX_NUM_TOOLS_BY_REGULAR = 3;
+
+    // #nights by each customer
+    public static final int MIN_NUM_NIGHTS_BY_CASUAL = 1;
+    public static final int MAX_NUM_NIGHTS_BY_CASUAL = 2;
+    public static final int NUM_NIGHTS_BY_BUSINESS = 7;
+    public static final int MIN_NUM_NIGHTS_BY_REGULAR = 3;
+    public static final int MAX_NUM_NIGHTS_BY_REGULAR = 5;
 }

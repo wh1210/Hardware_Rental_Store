@@ -1,49 +1,21 @@
 package Hao_Yuta_Linus.HardwareRentalStoreFile;
 
-import java.util.List;
+import static Hao_Yuta_Linus.HardwareRentalStoreFile.Constants.NUM_NIGHTS_BY_BUSINESS;
+import static Hao_Yuta_Linus.HardwareRentalStoreFile.Constants.NUM_TOOLS_BY_BUSINESS;
 
-public class BusinessCustomer implements Customer {
+public class BusinessCustomer extends Customer implements Observer {
 
-	@Override
-	public void rentTools() {
-		// TODO Auto-generated method stub
-		return;
-	}
-	
-	@Override
-	public void returnTools() {
-		// TODO Auto-generated method stub
-		return;
-	}
 
-	@Override
-	public String getName() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+    BusinessCustomer(String name) {
+        super(name);
+    }
 
-	@Override
-	public double getFee() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public int rentDays() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public void addOptions() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public List<Tool> toolsRented() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
+    @Override
+    public void update(Subject subject) {
+        if (NUM_TOOLS_BY_BUSINESS <= subject.getNumRentableTools()) {
+            for (int i = 0; i < NUM_TOOLS_BY_BUSINESS; i++) {
+                rentTool(subject, NUM_NIGHTS_BY_BUSINESS);
+            }
+        }
+    }
 }

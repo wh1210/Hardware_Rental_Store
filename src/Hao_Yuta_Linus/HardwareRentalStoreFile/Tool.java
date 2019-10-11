@@ -1,28 +1,38 @@
 package Hao_Yuta_Linus.HardwareRentalStoreFile;
 
 public abstract class Tool {
-	protected String productName;
-	protected double price;
-	
-	
-	public Tool(String productName, double price) {
-		this.productName = productName;
-		this.price = price;
-	}
+    protected String productName;
+    protected double price;
+    private Boolean isRentable;
 
 
-	public String getName() {
-		return productName;
-	}
+    public Tool(String productName, double price) {
+        this.productName = productName;
+        this.price = price;
+        this.isRentable = false;
+    }
 
 
-	public double getPrice() {
-		return price;
-	}
+    public String getName() {
+        return productName;
+    }
 
 
-	@Override
-	public String toString() {
-		return "name : " + this.getName() + ", price is: " + this.getPrice();
-	}
+    public double getPrice() {
+        return price;
+    }
+
+
+    @Override
+    public String toString() {
+        return "name : " + this.getName() + ", price is: " + this.getPrice();
+    }
+
+    public Boolean getIsRentable() {
+        return isRentable;
+    }
+
+    public void setIsRentable(Boolean vl) {
+        isRentable = vl;
+    }
 }

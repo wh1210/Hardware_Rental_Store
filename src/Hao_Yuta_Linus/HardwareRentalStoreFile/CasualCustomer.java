@@ -1,49 +1,27 @@
 package Hao_Yuta_Linus.HardwareRentalStoreFile;
 
-import java.util.List;
+import java.util.Random;
 
-public class CasualCustomer implements Customer {
+import static Hao_Yuta_Linus.HardwareRentalStoreFile.Constants.*;
 
-	@Override
-	public void rentTools() {
-		// TODO Auto-generated method stub
-		
-	}
+public class CasualCustomer extends Customer implements Observer {
 
-	@Override
-	public void returnTools() {
-		// TODO Auto-generated method stub
-		
-	}
 
-	@Override
-	public String getName() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+    CasualCustomer(String name) {
+        super(name);
+    }
 
-	@Override
-	public double getFee() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
+    @Override
+    public void update(Subject subject) {
+        // Generate random #tools and #nights
+        Random r = new Random();
+        int numTools = r.nextInt((MAX_NUM_TOOLS_BY_CASUAL - MIN_NUM_TOOLS_BY_CASUAL) + 1) + MIN_NUM_TOOLS_BY_CASUAL;
+        int numNights = r.nextInt((MAX_NUM_NIGHTS_BY_CASUAL - MIN_NUM_NIGHTS_BY_CASUAL) + 1) + MIN_NUM_NIGHTS_BY_CASUAL;
 
-	@Override
-	public int rentDays() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public void addOptions() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public List<Tool> toolsRented() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
+        if (numTools <= subject.getNumRentableTools()) {
+            for (int i = 0; i < numTools; i++) {
+                rentTool(subject, numNights);
+            }
+        }
+    }
 }
