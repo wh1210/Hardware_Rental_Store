@@ -9,6 +9,12 @@ public abstract class Tool {
 		this.productName = productName;
 		this.price = price;
 	}
+	
+	// Return the tool's category.
+	public abstract String getCategory();
+	
+	// Set the rent days for the given tool
+	public abstract void setDays(int days);
 
 
 	public String getName() {
@@ -19,7 +25,6 @@ public abstract class Tool {
 	public double getPrice() {
 		return price;
 	}
-
 
 	@Override
 	public String toString() {

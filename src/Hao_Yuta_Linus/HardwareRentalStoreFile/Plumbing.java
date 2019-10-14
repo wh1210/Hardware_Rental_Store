@@ -8,4 +8,14 @@ public class Plumbing extends Tool {
 		super(productName, PLUMBING_PER_DAY * day);
 	}
 
+	@Override
+	public String getCategory() {
+		return "Plumbing";
+	}
+
+	@Override
+	public void setDays(int days) {
+		this.price = PLUMBING_PER_DAY * days;
+	}
+
 }
