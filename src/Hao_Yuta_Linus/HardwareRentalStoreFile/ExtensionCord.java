@@ -6,7 +6,7 @@ public class ExtensionCord extends OptionalTool {
 	protected Tool tool;
 	
 	public ExtensionCord(Tool tool) {
-		super("", 0.0);
+		super("");
 		this.tool = tool;
 	}
 	

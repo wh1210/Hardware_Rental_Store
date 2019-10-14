@@ -5,9 +5,9 @@ public abstract class Tool {
 	protected double price;
 	
 	
-	public Tool(String productName, double price) {
+	public Tool(String productName) {
 		this.productName = productName;
-		this.price = price;
+		this.price = 0;
 	}
 	
 	// Return the tool's category.

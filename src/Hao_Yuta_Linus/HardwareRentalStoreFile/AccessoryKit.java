@@ -7,7 +7,7 @@ public class AccessoryKit extends OptionalTool {
 	protected Tool tool;
 	
 	public AccessoryKit(Tool tool) {
-		super("", 0.0);
+		super("");
 		this.tool = tool;
 	}
 	

@@ -7,7 +7,7 @@ public class GearPackage extends OptionalTool {
 	protected Tool tool;
 	
 	public GearPackage(Tool tool) {
-		super("", 0.0);
+		super("");
 		this.tool = tool;
 	}
 	
