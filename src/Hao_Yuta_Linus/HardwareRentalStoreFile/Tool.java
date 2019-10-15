@@ -5,10 +5,16 @@ public abstract class Tool {
 	protected double price;
 	
 	
-	public Tool(String productName, double price) {
+	public Tool(String productName) {
 		this.productName = productName;
-		this.price = price;
+		this.price = 0;
 	}
+	
+	// Return the tool's category.
+	public abstract String getCategory();
+	
+	// Set the rent days for the given tool
+	public abstract void setDays(int days);
 
 
 	public String getName() {
@@ -19,7 +25,6 @@ public abstract class Tool {
 	public double getPrice() {
 		return price;
 	}
-
 
 	@Override
 	public String toString() {

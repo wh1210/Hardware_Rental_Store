@@ -5,3 +5,8 @@
 .idea/
 *.iml
 out/
+
+#Eclipse
+.classpath
+.project
+bin/

@@ -13,7 +13,7 @@ public final class Constants {
 
     // Option's fee is calculated by using A), B), and C)
     // EX: Painting tool's extension code fee is
-    // EXTENSION_CODE_PRICE + PAINTING_PER_DAY * PAINTING_OPTION_RATE
+    // EXTENSION_CODE_PRICE * PAINTING_OPTION_RATE
 
 
     // B) Category's rent rate
