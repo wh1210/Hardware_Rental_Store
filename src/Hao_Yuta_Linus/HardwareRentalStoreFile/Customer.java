@@ -63,20 +63,19 @@ public abstract class Customer {
     	for(int i=0; i< options; i++){
     		optionalTool = rand.nextInt(2);
     		switch (optionalTool) {
-   					case 0:
-   						tool = new ExtensionCord(tool);
-   						break;
-   					case 1:
-   						tool = new GearPackage(tool);
-   						break;
-   					default:
-   						tool = new AccessoryKit(tool);
-   						break;
+   			case 0:
+   				tool = new ExtensionCord(tool);
+   				break;
+   			case 1:
+   				tool = new GearPackage(tool);
+   				break;
+   			default:
+   				tool = new AccessoryKit(tool);
+   				break;
     			}
-    			break;
     	}
     	return tool;
-	}
+   }
 }
 
 
