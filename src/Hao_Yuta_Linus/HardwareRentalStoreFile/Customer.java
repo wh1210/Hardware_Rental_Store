@@ -77,20 +77,3 @@ public abstract class Customer {
     	return tool;
    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
