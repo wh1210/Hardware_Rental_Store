@@ -1,6 +1,7 @@
 package Hao_Yuta_Linus.HardwareRentalStoreFile;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 public abstract class Customer {
     private String name;
@@ -29,7 +30,6 @@ public abstract class Customer {
     private Tool generateRentedTool(Tool tool, int nights) {
         String className = tool.getClass().getSimpleName();
         Tool output = null;
-        // TODO randomly add option (from 0 to 6)
         try {
             switch (className) {
                 case "Painting":
@@ -56,4 +56,130 @@ public abstract class Customer {
         }
         return output;
     }
+    
+    // TODO randomly add option (from 0 to 6)
+    private Tool randomlyAddOption(Tool tool){
+    	options = rand.nextInt(6)
+    	switch (options) {
+    		case 0:
+    			break;
+    		case 1:
+    			optionalTool = rand.nextInt(2)
+    			switch (optionalTool) {
+   					case 0:
+   						tool = new ExtensionCord(tool);
+   						break;
+   					case 1:
+   						tool = new GearPackage(tool);
+   						break;
+   					default:
+   						tool = new AccessoryKit(tool);
+   						break;
+    			}
+    			break;
+    			
+    		case 2:
+    			for (int i=0; i<2; i++){
+    			optionalTool = rand.nextInt(2)
+    			switch (optionalTool) {
+   					case 0:
+   						tool = new ExtensionCord(tool);
+   						break;
+   					case 1:
+   						tool = new GearPackage(tool);
+   						break;
+   					default:
+   						tool = new AccessoryKit(tool);
+   						break;
+    				}
+    			}
+    			break;
+
+    		case 3:
+    			for (int i=0; i<3; i++){
+    			optionalTool = rand.nextInt(2)
+    			switch (optionalTool) {
+   					case 0:
+   						tool = new ExtensionCord(tool);
+   						break;
+   					case 1:
+   						tool = new GearPackage(tool);
+   						break;
+   					default:
+   						tool = new AccessoryKit(tool);
+   						break;
+    				}
+    			}
+    			break;
+
+    		case 4:
+    			for (int i=0; i<4; i++){
+    			optionalTool = rand.nextInt(2)
+    			switch (optionalTool) {
+   					case 0:
+   						tool = new ExtensionCord(tool);
+   						break;
+   					case 1:
+   						tool = new GearPackage(tool);
+   						break;
+   					default:
+   						tool = new AccessoryKit(tool);
+   						break;
+    				}
+    			}
+    			break;
+
+    		case 5:
+    			for (int i=0; i<5; i++){
+    			optionalTool = rand.nextInt(2)
+    			switch (optionalTool) {
+   					case 0:
+   						tool = new ExtensionCord(tool);
+   						break;
+   					case 1:
+   						tool = new GearPackage(tool);
+   						break;
+   					default:
+   						tool = new AccessoryKit(tool);
+   						break;
+    				}
+    			}
+    			break;
+
+    		default:
+    			for (int i=0; i<6; i++){
+    			optionalTool = rand.nextInt(2)
+    			switch (optionalTool) {
+   					case 0:
+   						tool = new ExtensionCord(tool);
+   						break;
+   					case 1:
+   						tool = new GearPackage(tool);
+   						break;
+   					default:
+   						tool = new AccessoryKit(tool);
+   						break;
+    				}
+    			}
+    			break;
+    	}
+    	return tool;
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
