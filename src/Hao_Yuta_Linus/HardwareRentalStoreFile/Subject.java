@@ -3,8 +3,9 @@ package Hao_Yuta_Linus.HardwareRentalStoreFile;
 import java.util.ArrayList;
 
 public abstract class Subject {
-    private ArrayList<Observer> observers = new ArrayList<Observer>();
     protected boolean isNotification;
+    private ArrayList<Observer> observers = new ArrayList<Observer>();
+
     public void registerObserver(Observer observer) {
         observers.add(observer);
     }
@@ -15,12 +16,12 @@ public abstract class Subject {
 
     public void notifyObservers() {
         for (int i = 0; i < observers.size(); i++) {
-            if(isNotification)
+            if (isNotification)
                 observers.get(i).update(this);
         }
 
         // If the subject finished notifications to all subject, call stopStore()
-        if(isNotification) {
+        if (isNotification) {
             stopStore();
         }
     }
@@ -32,6 +33,7 @@ public abstract class Subject {
     public abstract int getNumAvailableTools();
 
     public abstract void announce(String std);
+
     public abstract void addRentedTool(Tool tool);
 
     public abstract void stopStore();

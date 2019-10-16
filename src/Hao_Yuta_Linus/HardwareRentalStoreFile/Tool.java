@@ -22,10 +22,6 @@ public abstract class Tool {
     // Set the rent days for the given tool
     public abstract void setDays(int days);
 
-    public  void setRentingPersonName(String name){
-        rentingPersonName = name;
-    }
-
     public String getName() {
         return productName;
     }
@@ -37,9 +33,18 @@ public abstract class Tool {
     public double getPrice() {
         return price;
     }
-    public int getDay(){ return day; }
-    public String getRentingPersonName(){
-        return rentingPersonName;}
+
+    public int getDay() {
+        return day;
+    }
+
+    public String getRentingPersonName() {
+        return rentingPersonName;
+    }
+
+    public void setRentingPersonName(String name) {
+        rentingPersonName = name;
+    }
 
     @Override
     public String toString() {

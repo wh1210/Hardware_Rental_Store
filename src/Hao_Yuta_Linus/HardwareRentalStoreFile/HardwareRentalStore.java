@@ -9,21 +9,23 @@ import static Hao_Yuta_Linus.HardwareRentalStoreFile.Constants.*;
 public class HardwareRentalStore extends Subject {
     private boolean[] availability = new boolean[NUM_TOOLS];
     private int day = 1;
-    private ArrayList<Tool> todayRentals = new ArrayList<>();       // List of tools which are rented the day
-    private ArrayList<Tool> activeRentals = new ArrayList<>();         // List of all active rented tools
-    private ArrayList<Integer> remainingDays = new ArrayList<>();   // List of remainig days which are correspond to allRentals
+    private double totalSales = 0;
 
+    private ArrayList<Tool> todayRentals = new ArrayList<>();       // List of tools which are rented the day
+    private ArrayList<Tool> activeRentals = new ArrayList<>();      // List of all active rented tools
+    private ArrayList<Tool> completedRentals = new ArrayList<>();   // List of all tools which are returned
+    private ArrayList<Integer> remainingDays = new ArrayList<>();   // List of remainig days which are correspond to allRentals
 
     public HardwareRentalStore() {
         Arrays.fill(availability, true);
     }
 
     public void openStore() {
-        System.out.println("\n++++++++++++++++++++++++++++++++++++++++++++++++++++++" );
-        System.out.println("++++++++++++++++++++ Day " + day + " starts ++++++++++++++++++++" );
-        System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++\n" );
+        System.out.println("\n++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+        System.out.println("++++++++++++++++++++ Day " + day + " starts ++++++++++++++++++++");
+        System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
 
-        if(day != 1) {
+        if (day != 1) {
             prepareForOpening();
         }
         isNotification = true;
@@ -40,7 +42,7 @@ public class HardwareRentalStore extends Subject {
     public void setAvailability(int index, Boolean value) {
         availability[index] = value;
         int numAvailability = getNumAvailableTools();
-        if(numAvailability == 0){
+        if (numAvailability == 0) {
             stopStore();
         }
     }
@@ -75,23 +77,29 @@ public class HardwareRentalStore extends Subject {
         reportSales();
         prepareForNextDay();
         reportActiveAndLeftRentals();
+
+        if (day == MAX_DAYS) {
+            reportFinal();
+        }
+
         day++;
-        if(day <= MAX_DAYS){
+        if (day <= MAX_DAYS) {
             openStore();
         }
     }
 
-    private void reportSales(){
-        double totalSales = 0;
-        for(int i = 0; i < todayRentals.size(); i++){
-            totalSales += todayRentals.get(i).getPrice();
+    private void reportSales() {
+        double sales = 0;
+        for (int i = 0; i < todayRentals.size(); i++) {
+            sales += todayRentals.get(i).getPrice();
         }
-        System.out.println("Sales (Day "+ day + "): " + totalSales);
+        System.out.println("Sales (Day " + day + "): " + sales);
+        totalSales += sales;
     }
 
-    private  void reportActiveAndLeftRentals(){
+    private void reportActiveAndLeftRentals() {
         System.out.println("\n========= Active Rental List =========");
-        for(int i = 0; i < activeRentals.size(); i++){
+        for (int i = 0; i < activeRentals.size(); i++) {
             System.out.println(activeRentals.get(i).getProductName() + " (" + activeRentals.get(i).getCategory() + ") rented by " + activeRentals.get(i).getRentingPersonName());
         }
         System.out.println("#Active rentals = " + activeRentals.size());
@@ -99,8 +107,8 @@ public class HardwareRentalStore extends Subject {
 
         System.out.println("\n--------- Left Rental List ---------");
         int numLeft = 0;
-        for(int i = 0; i < NUM_TOOLS; i++){
-            if(availability[i]){
+        for (int i = 0; i < NUM_TOOLS; i++) {
+            if (availability[i]) {
                 numLeft++;
                 System.out.println(TOOL_NAME[i] + " (" + TOOL_TYPE[i] + ")");
             }
@@ -109,35 +117,35 @@ public class HardwareRentalStore extends Subject {
         System.out.println("------------------------------------");
     }
 
-    private void prepareForNextDay(){
+    private void prepareForNextDay() {
 
-        for(int i = 0; i < todayRentals.size(); i++){
+        for (int i = 0; i < todayRentals.size(); i++) {
             activeRentals.add(todayRentals.get(i)); // Add todayRentals to allRentals
             remainingDays.add(todayRentals.get(i).getDay()); // Add renting day to remainingDays
         }
         todayRentals.clear();
     }
 
-    private void prepareForOpening(){
+    private void prepareForOpening() {
         // Update remainingDays
-        for(int i = 0; i < activeRentals.size(); i++){
-            remainingDays.set(i, remainingDays.get(i) -1);
+        for (int i = 0; i < activeRentals.size(); i++) {
+            remainingDays.set(i, remainingDays.get(i) - 1);
         }
 
         // Update availability, remainingDays, and allRentals if any element in remainingDays is equal to 0
         ArrayList<String> removeProductName = new ArrayList<>(); // List of product names which are deleted
-        for(int i = 0; i < activeRentals.size(); i++){
-            if(remainingDays.get(i) == 0) {
+        for (int i = 0; i < activeRentals.size(); i++) {
+            if (remainingDays.get(i) == 0) {
                 removeProductName.add(activeRentals.get(i).getProductName());
             }
         }
 
         // Change availability
-        for(int i = 0; i < removeProductName.size(); i++){
+        for (int i = 0; i < removeProductName.size(); i++) {
 
             String productName = removeProductName.get(i);
-            for(int j = 0; j < NUM_TOOLS; j++){
-                if(TOOL_NAME[j].equals(productName)){
+            for (int j = 0; j < NUM_TOOLS; j++) {
+                if (TOOL_NAME[j].equals(productName)) {
                     availability[j] = true;
                 }
             }
@@ -145,16 +153,16 @@ public class HardwareRentalStore extends Subject {
 
         // Delete corresponding elements in remainingDays
         Iterator<Integer> it1 = remainingDays.iterator();
-        while(it1.hasNext()){
+        while (it1.hasNext()) {
             int value = it1.next();
-            if(value == 0) it1.remove();
+            if (value == 0) it1.remove();
         }
 
         // Report completed rentals
         System.out.println("\n~~~~~~~~~ Completed Rental List ~~~~~~~~~");
-        for(int i = 0; i< activeRentals.size(); i++){
-            for(int j = 0; j < removeProductName.size(); j++){
-                if(activeRentals.get(i).getProductName().equals(removeProductName.get(j))){
+        for (int i = 0; i < activeRentals.size(); i++) {
+            for (int j = 0; j < removeProductName.size(); j++) {
+                if (activeRentals.get(i).getProductName().equals(removeProductName.get(j))) {
                     System.out.println(activeRentals.get(i).toString());
                 }
             }
@@ -164,12 +172,47 @@ public class HardwareRentalStore extends Subject {
 
         // Delete corresponding elements in allRentals
         Iterator<Tool> it = activeRentals.iterator();
-        while(it.hasNext()){
+        while (it.hasNext()) {
             Tool value = it.next();
-            for(int i = 0; i < removeProductName.size(); i++) {
-                if (value.getProductName().equals(removeProductName.get(i)))
+            for (int i = 0; i < removeProductName.size(); i++) {
+                if (value.getProductName().equals(removeProductName.get(i))) {
+                    completedRentals.add(value);
                     it.remove();
+                }
+
             }
         }
+    }
+
+    private void reportFinal() {
+        System.out.println("\n\n##############################################");
+        System.out.println("################# SUMMARY ####################");
+        System.out.println("##############################################\n");
+
+
+        // Add active rentals in completedRentals
+        for (int i = 0; i < activeRentals.size(); i++) {
+            completedRentals.add(activeRentals.get(i));
+        }
+
+
+        System.out.println("Total sales = " + totalSales);
+        System.out.println("#Rentals = " + completedRentals.size());
+
+        // TODO Put Person name in Constants
+        // TODO Count each value
+        int numCasual = 0;
+        int numBusiness = 0;
+        int numRegular = 0;
+        int numPainting = 0;
+        int numConcrete = 0;
+        int numPlumbing = 0;
+        int numWoodwork = 0;
+        int numYardwork = 0;
+        for (int i = 0; i < completedRentals.size(); i++) {
+            completedRentals.get(i).getRentingPersonName();
+        }
+
+
     }
 }

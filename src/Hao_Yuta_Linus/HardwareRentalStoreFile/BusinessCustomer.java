@@ -12,10 +12,10 @@ public class BusinessCustomer extends Customer implements Observer {
 
     @Override
     public void update(Subject subject) {
-            if (NUM_TOOLS_BY_BUSINESS <= subject.getNumAvailableTools()) {
-                for (int i = 0; i < NUM_TOOLS_BY_BUSINESS; i++) {
-                    rentTool(subject, NUM_NIGHTS_BY_BUSINESS);
-                }
+        if (NUM_TOOLS_BY_BUSINESS <= subject.getNumAvailableTools()) {
+            for (int i = 0; i < NUM_TOOLS_BY_BUSINESS; i++) {
+                rentTool(subject, NUM_NIGHTS_BY_BUSINESS);
             }
+        }
     }
 }
