@@ -197,13 +197,11 @@ public class HardwareRentalStore extends Subject {
 
 
         System.out.println("Total sales = " + totalSales);
+        System.out.println("\n");
+
         System.out.println("#Rentals = " + completedRentals.size());
 
-        // TODO Put Person name in Constants
-        // TODO Count each value
-        int numCasual = 0;
-        int numBusiness = 0;
-        int numRegular = 0;
+        // Count each tool type
         int numPainting = 0;
         int numConcrete = 0;
         int numPlumbing = 0;
@@ -211,8 +209,58 @@ public class HardwareRentalStore extends Subject {
         int numYardwork = 0;
         for (int i = 0; i < completedRentals.size(); i++) {
             completedRentals.get(i).getRentingPersonName();
+            switch (completedRentals.get(i).getCategory()) {
+                case PAINTING:
+                    numPainting++;
+                    break;
+                case CONCRETE:
+                    numConcrete++;
+                    break;
+                case PLUMBING:
+                    numPlumbing++;
+                    break;
+                case WOODWORK:
+                    numWoodwork++;
+                    break;
+                case YARDWORK:
+                    numYardwork++;
+                    break;
+            }
         }
+        System.out.println("\t#Paintings = " + numPainting);
+        System.out.println("\t#Concretes = " + numConcrete);
+        System.out.println("\t#Plumbings = " + numPlumbing);
+        System.out.println("\t#Woodwords = " + numWoodwork);
+        System.out.println("\t#Yardworks = " + numYardwork);
 
-
+        // Count each customer's type
+        int numCasual = 0;
+        int numBusiness = 0;
+        int numRegular = 0;
+        for (int i = 0; i < completedRentals.size(); i++) {
+            for (int j = 0; j < NUM_CUSTOMERS; j++) {
+                if (completedRentals.get(i).getRentingPersonName().equals(CUSTOMER_NAME[j])) {
+                    switch (CUSTOMER_TYPE[j]) {
+                        case CASUAL:
+                            numCasual++;
+                            break;
+                        case BUSINESS:
+                            numBusiness++;
+                            break;
+                        case REGULAR:
+                            numRegular++;
+                            break;
+                        default:
+                            break;
+                    }
+                }
+            }
+        }
+        System.out.println("\n");
+        int totalCustomers = numCasual + numBusiness + numRegular;
+        System.out.println("#Customers = " + totalCustomers);
+        System.out.println("\t#Casual Customers = " + numCasual);
+        System.out.println("\t#Business Customers = " + numBusiness);
+        System.out.println("\t#Regular Customers = " + numRegular);
     }
 }

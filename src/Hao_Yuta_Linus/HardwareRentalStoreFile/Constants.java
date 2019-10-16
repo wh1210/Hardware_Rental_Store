@@ -27,8 +27,28 @@ public final class Constants {
             YARDWORK, YARDWORK, YARDWORK, YARDWORK
     };
 
+    // Customer Type Names
+    public static final String BUSINESS = "Business";
+    public static final String CASUAL = "Casual";
+    public static final String REGULAR = "Regular";
+
+    // Concrete Customer Names
+    public static final String[] CUSTOMER_NAME = {
+            "Business1", "Business2", "Business3", "Business4",
+            "Casual1", "Casual2", "Casual3", "Casual4",
+            "Regular1", "Regular2", "Regular3", "Regular4"
+    };
+
+    // Concrete Customer's Type
+    public static final String[] CUSTOMER_TYPE = {
+            BUSINESS, BUSINESS, BUSINESS, BUSINESS,
+            CASUAL, CASUAL, CASUAL, CASUAL,
+            REGULAR, REGULAR, REGULAR, REGULAR
+    };
+
     public static final int NUM_TOOLS = 24;
     public static final int MAX_DAYS = 35;
+    public static final int NUM_CUSTOMERS = 12;
 
     // A) Tool's rent fee per day
     public static final double PAINTING_PER_DAY = 10.00;

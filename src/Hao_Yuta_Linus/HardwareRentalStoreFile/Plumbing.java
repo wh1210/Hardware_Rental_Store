@@ -1,5 +1,6 @@
 package Hao_Yuta_Linus.HardwareRentalStoreFile;
 
+import static Hao_Yuta_Linus.HardwareRentalStoreFile.Constants.PLUMBING;
 import static Hao_Yuta_Linus.HardwareRentalStoreFile.Constants.PLUMBING_PER_DAY;
 
 public class Plumbing extends Tool {
@@ -10,7 +11,7 @@ public class Plumbing extends Tool {
 
     @Override
     public String getCategory() {
-        return "Plumbing";
+        return PLUMBING;
     }
 
     @Override

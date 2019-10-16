@@ -12,13 +12,13 @@ public class ExtensionCord extends OptionalTool {
 
     @Override
     public double getPrice() {
-        if (this.getCategory().equals("Concrete")) {
+        if (this.getCategory().equals(CONCRETE)) {
             return tool.getPrice() + CONCRETE_OPTION_RATE * EXTENSION_CODE_PRICE;
-        } else if (this.getCategory().equals("Painting")) {
+        } else if (this.getCategory().equals(PAINTING)) {
             return tool.getPrice() + PAINTING_OPTION_RATE * EXTENSION_CODE_PRICE;
-        } else if (this.getCategory().equals("Plumbing")) {
+        } else if (this.getCategory().equals(PLUMBING)) {
             return tool.getPrice() + PLUMBING_OPTION_RATE * EXTENSION_CODE_PRICE;
-        } else if (this.getCategory().equals("Woodwork")) {
+        } else if (this.getCategory().equals(WOODWORK)) {
             return tool.getPrice() + WOODWORK_OPTION_RATE * EXTENSION_CODE_PRICE;
         } else {
             return tool.getPrice() + YARDWORK_OPTION_RATE * EXTENSION_CODE_PRICE;

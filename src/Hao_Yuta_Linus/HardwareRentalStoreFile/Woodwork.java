@@ -1,5 +1,6 @@
 package Hao_Yuta_Linus.HardwareRentalStoreFile;
 
+import static Hao_Yuta_Linus.HardwareRentalStoreFile.Constants.WOODWORK;
 import static Hao_Yuta_Linus.HardwareRentalStoreFile.Constants.WOODWORK_PER_DAY;
 
 public class Woodwork extends Tool {
@@ -10,7 +11,7 @@ public class Woodwork extends Tool {
 
     @Override
     public String getCategory() {
-        return "Woodwork";
+        return WOODWORK;
     }
 
     @Override

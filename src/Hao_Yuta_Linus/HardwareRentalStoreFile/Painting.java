@@ -1,5 +1,6 @@
 package Hao_Yuta_Linus.HardwareRentalStoreFile;
 
+import static Hao_Yuta_Linus.HardwareRentalStoreFile.Constants.PAINTING;
 import static Hao_Yuta_Linus.HardwareRentalStoreFile.Constants.PAINTING_PER_DAY;
 
 public class Painting extends Tool {
@@ -10,7 +11,7 @@ public class Painting extends Tool {
 
     @Override
     public String getCategory() {
-        return "Painting";
+        return PAINTING;
     }
 
     @Override

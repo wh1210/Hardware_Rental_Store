@@ -1,5 +1,6 @@
 package Hao_Yuta_Linus.HardwareRentalStoreFile;
 
+import static Hao_Yuta_Linus.HardwareRentalStoreFile.Constants.CONCRETE;
 import static Hao_Yuta_Linus.HardwareRentalStoreFile.Constants.CONCRETE_PER_DAY;
 
 public class Concrete extends Tool {
@@ -10,7 +11,7 @@ public class Concrete extends Tool {
 
     @Override
     public String getCategory() {
-        return "Concrete";
+        return CONCRETE;
     }
 
     @Override
