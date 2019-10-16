@@ -16,5 +16,6 @@ public class Painting extends Tool {
     @Override
     public void setDays(int days) {
         this.price = PAINTING_PER_DAY * days;
+        this.day = days;
     }
 }

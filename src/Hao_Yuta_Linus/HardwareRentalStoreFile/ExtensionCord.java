@@ -30,10 +30,6 @@ public class ExtensionCord extends OptionalTool {
         return tool.getName() + " + 1 extension cord";
     }
 
-    @Override
-    public String toString() {
-        return "name : " + this.getName() + ", price is: " + this.getPrice();
-    }
 
     @Override
     public String getCategory() {
@@ -42,6 +38,20 @@ public class ExtensionCord extends OptionalTool {
 
     @Override
     public void setDays(int days) {
-        this.tool.setDays(days);
+    }
+
+    @Override
+    public int getDay() {
+        return tool.getDay();
+    }
+
+    @Override
+    public String getProductName() {
+        return tool.getProductName();
+    }
+
+    @Override
+    public String getRentingPersonName() {
+        return tool.getRentingPersonName();
     }
 }

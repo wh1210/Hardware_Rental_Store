@@ -20,8 +20,8 @@ public abstract class Customer {
         boolean[] availability = subject.getAvailability();
         for (int i = 0; i < availability.length; i++) {
             if (availability[i]) {
-                subject.announce(TOOL_NAME[i] + " is rented by " + getName() + " (" + nights + " days)");
                 Tool rentedTool = generateRentedTool(nights, i);
+                subject.addRentedTool(rentedTool);
                 subject.setAvailability(i, false);
                 break;
             }
@@ -32,11 +32,11 @@ public abstract class Customer {
         ToolFactory tf = new ToolFactory();
         Tool tool = tf.getTool(TOOL_TYPE[toolId], TOOL_NAME[toolId]);
         tool.setDays(nights);
+        tool.setRentingPersonName(name);
         return randomlyAddOption(tool);
     }
 
-    // TODO randomly add option (from 0 to 6)
-    // TODO correctly work?
+    // Randomly add option (from 0 to 6)
     private Tool randomlyAddOption(Tool tool) {
         Random ran = new Random();
         int numOptions = ran.nextInt(7);

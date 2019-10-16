@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public abstract class Subject {
     private ArrayList<Observer> observers = new ArrayList<Observer>();
-
+    protected boolean isNotification;
     public void registerObserver(Observer observer) {
         observers.add(observer);
     }
@@ -15,17 +15,24 @@ public abstract class Subject {
 
     public void notifyObservers() {
         for (int i = 0; i < observers.size(); i++) {
-            observers.get(i).update(this);
+            if(isNotification)
+                observers.get(i).update(this);
+        }
+
+        // If the subject finished notifications to all subject, call stopStore()
+        if(isNotification) {
+            stopStore();
         }
     }
-
-//    public abstract ArrayList<Tool> getToolList();
 
     public abstract boolean[] getAvailability();
 
     public abstract void setAvailability(int index, Boolean value);
 
-    public abstract int getNumRentableTools();
+    public abstract int getNumAvailableTools();
 
     public abstract void announce(String std);
+    public abstract void addRentedTool(Tool tool);
+
+    public abstract void stopStore();
 }

@@ -3,7 +3,7 @@ package Hao_Yuta_Linus.HardwareRentalStoreFile;
 public class Test {
     // temporary test file to see if the decorator pattern works.
     public static void main(String[] args) {
-        decoratorTest();
+        // decoratorTest();
         rentingTest();
     }
 

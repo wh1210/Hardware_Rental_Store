@@ -3,7 +3,8 @@ package Hao_Yuta_Linus.HardwareRentalStoreFile;
 public abstract class Tool {
     protected String productName;
     protected double price;
-
+    protected int day;
+    protected String rentingPersonName;
 
     public Tool(String productName) {
         this.productName = productName;
@@ -21,18 +22,31 @@ public abstract class Tool {
     // Set the rent days for the given tool
     public abstract void setDays(int days);
 
+    public  void setRentingPersonName(String name){
+        rentingPersonName = name;
+    }
+
     public String getName() {
         return productName;
     }
 
+    public String getProductName() {
+        return productName;
+    }
 
     public double getPrice() {
         return price;
     }
-
+    public int getDay(){ return day; }
+    public String getRentingPersonName(){
+        return rentingPersonName;}
 
     @Override
     public String toString() {
-        return "name : " + this.getName() + ", price is: " + this.getPrice();
+        return this.getName() +
+                "\n\t| Tool type : " + this.getCategory() +
+                "\n\t| price : " + this.getPrice() +
+                "\n\t| Renting day : " + this.getDay() +
+                "\n\t| Rented by : " + this.getRentingPersonName();
     }
 }

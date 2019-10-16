@@ -3,6 +3,33 @@ package Hao_Yuta_Linus.HardwareRentalStoreFile;
 // Manage constant values in this program
 
 public final class Constants {
+    // Tool Type Names (Concrete Tool's Class name)
+    public static final String CONCRETE = "Concrete";
+    public static final String PAINTING = "Painting";
+    public static final String PLUMBING = "Plumbing";
+    public static final String WOODWORK = "Woodwork";
+    public static final String YARDWORK = "Yardwork";
+
+    // Concrete Tool Names
+    public static final String[] TOOL_NAME = {
+            "Pain1", "Pain2", "Pain3", "Pain4", "Pain5",
+            "Conc1", "Conc2", "Conc3", "Conc4", "Conc5",
+            "Plum1", "Plum2", "Plum3", "Plum4", "Plum5",
+            "Wood1", "Wood2", "Wood3", "Wood4", "Wood5",
+            "Yard1", "Yard2", "Yard3", "Yard4"};
+
+    // Concrete Tool's Type
+    public static final String[] TOOL_TYPE = {
+            PAINTING, PAINTING, PAINTING, PAINTING, PAINTING,
+            CONCRETE, CONCRETE, CONCRETE, CONCRETE, CONCRETE,
+            PLUMBING, PLUMBING, PLUMBING, PLUMBING, PLUMBING,
+            WOODWORK, WOODWORK, WOODWORK, WOODWORK, WOODWORK,
+            YARDWORK, YARDWORK, YARDWORK, YARDWORK
+    };
+
+    public static final int NUM_TOOLS = 24;
+    public static final int MAX_DAYS = 35;
+
     // A) Tool's rent fee per day
     public static final double PAINTING_PER_DAY = 10.00;
     public static final double CONCRETE_PER_DAY = 11.00;
@@ -41,26 +68,4 @@ public final class Constants {
     public static final int NUM_NIGHTS_BY_BUSINESS = 7;
     public static final int MIN_NUM_NIGHTS_BY_REGULAR = 3;
     public static final int MAX_NUM_NIGHTS_BY_REGULAR = 5;
-
-
-    public static final String CONCRETE = "Concrete";
-    public static final String PAINTING = "Painting";
-    public static final String PLUMBING = "Plumbing";
-    public static final String WOODWORK = "Woodwork";
-    public static final String YARDWORK = "Yardwork";
-
-    public static final String[] TOOL_NAME = {
-            "Pain1", "Pain2", "Pain3", "Pain4", "Pain5",
-            "Conc1", "Conc2", "Conc3", "Conc4", "Conc5",
-            "Plum1", "Plum2", "Plum3", "Plum4", "Plum5",
-            "Wood1", "Wood2", "Wood3", "Wood4", "Wood5",
-            "Yard1", "Yard2", "Yard3", "Yard4"};
-
-    public static final String[] TOOL_TYPE = {
-            PAINTING, PAINTING, PAINTING, PAINTING, PAINTING,
-            CONCRETE, CONCRETE, CONCRETE, CONCRETE, CONCRETE,
-            PLUMBING, PLUMBING, PLUMBING, PLUMBING, PLUMBING,
-            WOODWORK, WOODWORK, WOODWORK, WOODWORK, WOODWORK,
-            YARDWORK, YARDWORK, YARDWORK, YARDWORK
-    };
 }

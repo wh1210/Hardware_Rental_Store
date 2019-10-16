@@ -16,5 +16,6 @@ public class Yardwork extends Tool {
     @Override
     public void setDays(int days) {
         this.price = YARDWORK_PER_DAY * days;
+        this.day = days;
     }
 }

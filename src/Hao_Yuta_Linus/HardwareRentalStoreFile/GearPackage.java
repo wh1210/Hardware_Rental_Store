@@ -32,17 +32,26 @@ public class GearPackage extends OptionalTool {
     }
 
     @Override
-    public String toString() {
-        return "name : " + this.getName() + ", price is: " + this.getPrice();
-    }
-
-    @Override
     public String getCategory() {
         return this.tool.getCategory();
     }
 
     @Override
     public void setDays(int days) {
-        this.tool.setDays(days);
+    }
+
+    @Override
+    public int getDay() {
+        return tool.getDay();
+    }
+
+    @Override
+    public String getProductName() {
+        return tool.getProductName();
+    }
+
+    @Override
+    public String getRentingPersonName() {
+        return tool.getRentingPersonName();
     }
 }

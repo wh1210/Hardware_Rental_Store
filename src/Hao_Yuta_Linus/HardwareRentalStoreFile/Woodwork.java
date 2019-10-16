@@ -16,5 +16,6 @@ public class Woodwork extends Tool {
     @Override
     public void setDays(int days) {
         this.price = WOODWORK_PER_DAY * days;
+        this.day = days;
     }
 }
