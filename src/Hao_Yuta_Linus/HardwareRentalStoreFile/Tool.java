@@ -3,15 +3,23 @@ package Hao_Yuta_Linus.HardwareRentalStoreFile;
 public abstract class Tool {
     protected String productName;
     protected double price;
-    private Boolean isRentable;
 
+
+    public Tool(String productName) {
+        this.productName = productName;
+        this.price = 0;
+    }
 
     public Tool(String productName, double price) {
         this.productName = productName;
         this.price = price;
-        this.isRentable = false;
     }
 
+    // Return the tool's category.
+    public abstract String getCategory();
+
+    // Set the rent days for the given tool
+    public abstract void setDays(int days);
 
     public String getName() {
         return productName;
@@ -26,13 +34,5 @@ public abstract class Tool {
     @Override
     public String toString() {
         return "name : " + this.getName() + ", price is: " + this.getPrice();
-    }
-
-    public Boolean getIsRentable() {
-        return isRentable;
-    }
-
-    public void setIsRentable(Boolean vl) {
-        isRentable = vl;
     }
 }

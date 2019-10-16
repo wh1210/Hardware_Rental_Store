@@ -4,8 +4,17 @@ import static Hao_Yuta_Linus.HardwareRentalStoreFile.Constants.WOODWORK_PER_DAY;
 
 public class Woodwork extends Tool {
 
-	public Woodwork(String productName, int day) {
-		super(productName, WOODWORK_PER_DAY * day);
-	}
+    public Woodwork(String productName) {
+        super(productName);
+    }
 
+    @Override
+    public String getCategory() {
+        return "Woodwork";
+    }
+
+    @Override
+    public void setDays(int days) {
+        this.price = WOODWORK_PER_DAY * days;
+    }
 }

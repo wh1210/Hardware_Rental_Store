@@ -1,7 +1,9 @@
 package Hao_Yuta_Linus.HardwareRentalStoreFile;
 
-import java.util.ArrayList;
 import java.util.Random;
+
+import static Hao_Yuta_Linus.HardwareRentalStoreFile.Constants.TOOL_NAME;
+import static Hao_Yuta_Linus.HardwareRentalStoreFile.Constants.TOOL_TYPE;
 
 public abstract class Customer {
     private String name;
@@ -15,65 +17,43 @@ public abstract class Customer {
     }
 
     public void rentTool(Subject subject, int nights) {
-        ArrayList<Tool> allTools = subject.getToolList();
-
-        for (int i = 0; i < allTools.size(); i++) {
-            if (allTools.get(i).getIsRentable()) {
-                subject.announce(allTools.get(i).getName() + " is rented by " + getName() + " (" + Integer.toString(nights) + " days)");
-                Tool rentedTool = generateRentedTool(allTools.get(i), nights);
-                allTools.set(i, rentedTool);
+        boolean[] availability = subject.getAvailability();
+        for (int i = 0; i < availability.length; i++) {
+            if (availability[i]) {
+                subject.announce(TOOL_NAME[i] + " is rented by " + getName() + " (" + nights + " days)");
+                Tool rentedTool = generateRentedTool(nights, i);
+                subject.setAvailability(i, false);
                 break;
             }
         }
     }
 
-    private Tool generateRentedTool(Tool tool, int nights) {
-        String className = tool.getClass().getSimpleName();
-        Tool output = null;
-        try {
-            switch (className) {
-                case "Painting":
-                    output = new Painting(tool.getName(), nights);
-                    break;
-                case "Concrete":
-                    output = new Concrete(tool.getName(), nights);
-                    break;
-                case "Plumbing":
-                    output = new Plumbing(tool.getName(), nights);
-                    break;
-                case "Woodwork":
-                    output = new Woodwork(tool.getName(), nights);
-                    break;
-                case "Yardwork":
-                    output = new Yardwork(tool.getName(), nights);
-                    break;
-                default:
-                    output = new Yardwork(tool.getName(), nights);
-                    throw new RuntimeException("class name error");
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return output;
+    private Tool generateRentedTool(int nights, int toolId) {
+        ToolFactory tf = new ToolFactory();
+        Tool tool = tf.getTool(TOOL_TYPE[toolId], TOOL_NAME[toolId]);
+        tool.setDays(nights);
+        return randomlyAddOption(tool);
     }
 
     // TODO randomly add option (from 0 to 6)
-    private Tool randomlyAddOption(Tool tool){
-    	options = rand.nextInt(7);
-    	for(int i=0; i< options; i++){
-    		optionalTool = rand.nextInt(2);
-    		switch (optionalTool) {
-   			case 0:
-   				tool = new ExtensionCord(tool);
-   				break;
-   			case 1:
-   				tool = new GearPackage(tool);
-   				break;
-   			default:
-   				tool = new AccessoryKit(tool);
-   				break;
-    			}
-    	}
-    	return tool;
-   }
+    // TODO correctly work?
+    private Tool randomlyAddOption(Tool tool) {
+        Random ran = new Random();
+        int numOptions = ran.nextInt(7);
+        for (int i = 0; i < numOptions; i++) {
+            int optionalTool = ran.nextInt(2);
+            switch (optionalTool) {
+                case 0:
+                    tool = new ExtensionCord(tool);
+                    break;
+                case 1:
+                    tool = new GearPackage(tool);
+                    break;
+                default:
+                    tool = new AccessoryKit(tool);
+                    break;
+            }
+        }
+        return tool;
+    }
 }

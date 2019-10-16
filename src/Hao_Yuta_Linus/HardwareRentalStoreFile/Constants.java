@@ -13,7 +13,7 @@ public final class Constants {
 
     // Option's fee is calculated by using A), B), and C)
     // EX: Painting tool's extension code fee is
-    // EXTENSION_CODE_PRICE + PAINTING_PER_DAY * PAINTING_OPTION_RATE
+    // EXTENSION_CODE_PRICE * PAINTING_OPTION_RATE
 
 
     // B) Category's rent rate
@@ -41,4 +41,26 @@ public final class Constants {
     public static final int NUM_NIGHTS_BY_BUSINESS = 7;
     public static final int MIN_NUM_NIGHTS_BY_REGULAR = 3;
     public static final int MAX_NUM_NIGHTS_BY_REGULAR = 5;
+
+
+    public static final String CONCRETE = "Concrete";
+    public static final String PAINTING = "Painting";
+    public static final String PLUMBING = "Plumbing";
+    public static final String WOODWORK = "Woodwork";
+    public static final String YARDWORK = "Yardwork";
+
+    public static final String[] TOOL_NAME = {
+            "Pain1", "Pain2", "Pain3", "Pain4", "Pain5",
+            "Conc1", "Conc2", "Conc3", "Conc4", "Conc5",
+            "Plum1", "Plum2", "Plum3", "Plum4", "Plum5",
+            "Wood1", "Wood2", "Wood3", "Wood4", "Wood5",
+            "Yard1", "Yard2", "Yard3", "Yard4"};
+
+    public static final String[] TOOL_TYPE = {
+            PAINTING, PAINTING, PAINTING, PAINTING, PAINTING,
+            CONCRETE, CONCRETE, CONCRETE, CONCRETE, CONCRETE,
+            PLUMBING, PLUMBING, PLUMBING, PLUMBING, PLUMBING,
+            WOODWORK, WOODWORK, WOODWORK, WOODWORK, WOODWORK,
+            YARDWORK, YARDWORK, YARDWORK, YARDWORK
+    };
 }

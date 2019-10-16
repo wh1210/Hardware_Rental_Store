@@ -1,68 +1,80 @@
 package Hao_Yuta_Linus.HardwareRentalStoreFile;
 
-import java.util.ArrayList;
+import java.util.Hashtable;
+import java.util.Map;
 
 public class HardwareRentalStore extends Subject {
-    private ArrayList<Tool> tools;
+    //    private ArrayList<Tool> tools;
+    private Map<String, String> table = new Hashtable<>();
+
+
+    private boolean[] availability = new boolean[24];
 
 
     public HardwareRentalStore() {
-        tools = new ArrayList<>();
+//        tools = new ArrayList<>();
+        for (int i = 0; i < availability.length; i++) {
+            availability[i] = true;
+        }
         // call the helper function to initialize tools
-        initializeTools();
+//        initializeTools();
     }
 
     // Help to initialize tools
-    private void initializeTools() {
-    	// TODO Use factory pattern
-        tools.add(new Painting("Painting1", 0));
-        tools.add(new Concrete("Concrete1", 0));
-        tools.add(new Plumbing("Plumbing1", 0));
-        tools.add(new Woodwork("Woodwork1", 0));
-        tools.add(new Yardwork("Yardwork1", 0));
-
-		tools.add(new Painting("Painting2", 0));
-		tools.add(new Concrete("Concrete2", 0));
-		tools.add(new Plumbing("Plumbing2", 0));
-		tools.add(new Woodwork("Woodwork2", 0));
-		tools.add(new Yardwork("Yardwork2", 0));
-
-		tools.add(new Painting("Painting3", 0));
-		tools.add(new Concrete("Concrete3", 0));
-		tools.add(new Plumbing("Plumbing3", 0));
-		tools.add(new Woodwork("Woodwork3", 0));
-		tools.add(new Yardwork("Yardwork3", 0));
-
-		tools.add(new Painting("Painting4", 0));
-		tools.add(new Concrete("Concrete4", 0));
-		tools.add(new Plumbing("Plumbing4", 0));
-		tools.add(new Woodwork("Woodwork4", 0));
-		tools.add(new Yardwork("Yardwork4", 0));
-
-		tools.add(new Painting("Painting5", 0));
-		tools.add(new Concrete("Concrete5", 0));
-		tools.add(new Plumbing("Plumbing5", 0));
-		tools.add(new Woodwork("Woodwork5", 0));
-        for (int i = 0; i < tools.size(); i++) {
-            tools.get(i).setIsRentable(true);
-        }
-    }
+//    private void initializeTools() {
+//    	// Initialize tools by ToolFactory (Factory Pattern)
+//        ToolFactory tf = new ToolFactory();
+//        tools.add(tf.getTool("Painting", "Pain1"));
+//        tools.add(tf.getTool("Concrete", "Conc1"));
+//        tools.add(tf.getTool("Plumbing", "Plum1"));
+//        tools.add(tf.getTool("Woodwork", "Wood1"));
+//        tools.add(tf.getTool("Yardwork", "Yard1"));
+//
+//        tools.add(tf.getTool("Painting", "Pain2"));
+//        tools.add(tf.getTool("Concrete", "Conc2"));
+//        tools.add(tf.getTool("Plumbing", "Plum2"));
+//        tools.add(tf.getTool("Woodwork", "Wood2"));
+//        tools.add(tf.getTool("Yardwork", "Yard2"));
+//
+//        tools.add(tf.getTool("Painting", "Pain3"));
+//        tools.add(tf.getTool("Concrete", "Conc3"));
+//        tools.add(tf.getTool("Plumbing", "Plum3"));
+//        tools.add(tf.getTool("Woodwork", "Wood3"));
+//        tools.add(tf.getTool("Yardwork", "Yard3"));
+//
+//        tools.add(tf.getTool("Painting", "Pain4"));
+//        tools.add(tf.getTool("Concrete", "Conc4"));
+//        tools.add(tf.getTool("Plumbing", "Plum4"));
+//        tools.add(tf.getTool("Woodwork", "Wood4"));
+//        tools.add(tf.getTool("Yardwork", "Yard4"));
+//
+//        tools.add(tf.getTool("Painting", "Pain5"));
+//        tools.add(tf.getTool("Concrete", "Conc5"));
+//        tools.add(tf.getTool("Plumbing", "Plum5"));
+//        tools.add(tf.getTool("Woodwork", "Wood5"));
+//    }
 
 
     public void openStore() {
         notifyObservers();
     }
 
+
     @Override
-    public ArrayList<Tool> getToolList() {
-        return tools;
+    public boolean[] getAvailability() {
+        return availability;
+    }
+
+    @Override
+    public void setAvailability(int index, Boolean value) {
+        availability[index] = value;
     }
 
     @Override
     public int getNumRentableTools() {
         int num = 0;
-        for (int i = 0; i < tools.size(); i++) {
-            if (tools.get(i).getIsRentable())
+        for (int i = 0; i < availability.length; i++) {
+            if (availability[i])
                 num++;
         }
         return num;

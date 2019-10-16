@@ -19,7 +19,11 @@ public abstract class Subject {
         }
     }
 
-    public abstract ArrayList<Tool> getToolList();
+//    public abstract ArrayList<Tool> getToolList();
+
+    public abstract boolean[] getAvailability();
+
+    public abstract void setAvailability(int index, Boolean value);
 
     public abstract int getNumRentableTools();
 
