@@ -1,5 +1,6 @@
 package Hao_Yuta_Linus.HardwareRentalStoreFile;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
@@ -10,7 +11,7 @@ public class HardwareRentalStore extends Subject {
     private boolean[] availability = new boolean[NUM_TOOLS];
     private int day = 1;
     private double totalSales = 0;
-
+    private DecimalFormat salesFormat = new DecimalFormat("$#.#");
     private ArrayList<Tool> todayRentals = new ArrayList<>();       // List of tools which are rented the day
     private ArrayList<Tool> activeRentals = new ArrayList<>();      // List of all active rented tools
     private ArrayList<Tool> completedRentals = new ArrayList<>();   // List of all tools which are returned
@@ -18,6 +19,9 @@ public class HardwareRentalStore extends Subject {
 
     public HardwareRentalStore() {
         Arrays.fill(availability, true);
+        // Initialize format
+        salesFormat.setMinimumFractionDigits(2);
+        salesFormat.setMaximumFractionDigits(2);
     }
 
     public void openStore() {
@@ -93,7 +97,7 @@ public class HardwareRentalStore extends Subject {
         for (int i = 0; i < todayRentals.size(); i++) {
             sales += todayRentals.get(i).getPrice();
         }
-        System.out.println("Sales (Day " + day + "): " + sales);
+        System.out.println("Sales (Day " + day + "): " + salesFormat.format(sales));
         totalSales += sales;
     }
 
@@ -196,7 +200,7 @@ public class HardwareRentalStore extends Subject {
         }
 
 
-        System.out.println("Total sales = " + totalSales);
+        System.out.println("Total sales = " + salesFormat.format(totalSales));
         System.out.println("\n");
 
         System.out.println("#Rentals = " + completedRentals.size());
