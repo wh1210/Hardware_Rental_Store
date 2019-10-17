@@ -1,6 +1,8 @@
 package Hao_Yuta_Linus.HardwareRentalStoreFile;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Random;
 
 public abstract class Subject {
     protected boolean isNotification;
@@ -15,7 +17,12 @@ public abstract class Subject {
     }
 
     public void notifyObservers() {
-        for (int i = 0; i < observers.size(); i++) {
+        // Randomly notify to random #observers
+        Collections.shuffle(observers); // for random order
+        Random r = new Random();
+        int numNotification = r.nextInt(observers.size());
+
+        for (int i = 0; i < numNotification; i++) {
             if (isNotification)
                 observers.get(i).update(this);
         }
