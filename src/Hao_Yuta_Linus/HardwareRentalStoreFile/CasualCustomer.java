@@ -3,7 +3,10 @@ package Hao_Yuta_Linus.HardwareRentalStoreFile;
 import java.util.Random;
 
 import static Hao_Yuta_Linus.HardwareRentalStoreFile.Constants.*;
-
+/** Create a inherited class base on observer
+ * @author Hao_Yuta_Linus
+ * @since 2019-10-18
+ */
 public class CasualCustomer extends Customer implements Observer {
 
 
@@ -12,6 +15,7 @@ public class CasualCustomer extends Customer implements Observer {
     }
 
     @Override
+    // update rental tools with random tools and night for Casual Customer
     public void update(Subject subject) {
         // Generate random #tools and #nights
         Random r = new Random();
