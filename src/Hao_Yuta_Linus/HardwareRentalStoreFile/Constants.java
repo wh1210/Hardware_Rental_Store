@@ -1,6 +1,8 @@
 package Hao_Yuta_Linus.HardwareRentalStoreFile;
-
-// Manage constant values in this program
+/** Create a constant class for manage constant values in this program
+ * @author Hao_Yuta_Linus
+ * @since 2019-10-18
+ */
 
 public final class Constants {
     // Tool Type Names (Concrete Tool's Class name)

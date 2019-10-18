@@ -7,6 +7,13 @@ import java.util.Iterator;
 
 import static Hao_Yuta_Linus.HardwareRentalStoreFile.Constants.*;
 
+/** Create a HardwareRentalStore class for subject
+ * Contains the main function
+ * Initialize ArrayList containing rental tools
+ * Print out the output
+ * @author Hao_Yuta_Linus
+ * @since 2019-10-18
+ */
 public class HardwareRentalStore extends Subject {
     private boolean[] availability = new boolean[NUM_TOOLS];
     private int day = 1;

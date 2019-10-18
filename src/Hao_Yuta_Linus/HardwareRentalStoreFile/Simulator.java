@@ -4,6 +4,11 @@ import java.util.ArrayList;
 
 import static Hao_Yuta_Linus.HardwareRentalStoreFile.Constants.*;
 
+/** Create a class Simulator to simulate rental store in
+ * 35 days
+ * @author Hao_Yuta_Linus
+ * @since 2019-10-18
+ */
 public class Simulator {
 
     // This is a main function to simulate this store in 35 days.

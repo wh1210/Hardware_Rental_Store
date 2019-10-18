@@ -1,0 +1,2408 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 1 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Sales (Day 1): $633.90
+
+========= Active Rental List =========
+Pain1 (Painting) rented by Regular3
+Pain2 (Painting) rented by Regular3
+Pain3 (Painting) rented by Regular3
+Pain4 (Painting) rented by Casual1
+Pain5 (Painting) rented by Casual1
+Conc1 (Concrete) rented by Business3
+Conc2 (Concrete) rented by Business3
+Conc3 (Concrete) rented by Business3
+Conc4 (Concrete) rented by Regular1
+Conc5 (Concrete) rented by Business1
+Plum1 (Plumbing) rented by Business1
+Plum2 (Plumbing) rented by Business1
+#Active rentals = 12
+=====================================
+
+
+--------- Left Rental List ---------
+Plum3 (Plumbing)
+Plum4 (Plumbing)
+Plum5 (Plumbing)
+Wood1 (Woodwork)
+Wood2 (Woodwork)
+Wood3 (Woodwork)
+Wood4 (Woodwork)
+Wood5 (Woodwork)
+Yard1 (Yardwork)
+Yard2 (Yardwork)
+Yard3 (Yardwork)
+Yard4 (Yardwork)
+#Left rentals = 12
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 2 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+Pain4 + 1 protective gear package + 1 protective gear package
+	| Tool type : Painting
+	| price : 10.600000000000001
+	| Renting day : 1
+	| Rented by : Casual1
+Pain5 + 1 extension cord + 1 extension cord + 1 extension cord
+	| Tool type : Painting
+	| price : 10.299999999999999
+	| Renting day : 1
+	| Rented by : Casual1
+#Completed rentals = 2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 2): $355.30
+
+========= Active Rental List =========
+Pain1 (Painting) rented by Regular3
+Pain2 (Painting) rented by Regular3
+Pain3 (Painting) rented by Regular3
+Conc1 (Concrete) rented by Business3
+Conc2 (Concrete) rented by Business3
+Conc3 (Concrete) rented by Business3
+Conc4 (Concrete) rented by Regular1
+Conc5 (Concrete) rented by Business1
+Plum1 (Plumbing) rented by Business1
+Plum2 (Plumbing) rented by Business1
+Pain4 (Painting) rented by Casual3
+Pain5 (Painting) rented by Casual3
+Plum3 (Plumbing) rented by Regular4
+Plum4 (Plumbing) rented by Regular4
+Plum5 (Plumbing) rented by Regular4
+Wood1 (Woodwork) rented by Regular1
+Wood2 (Woodwork) rented by Casual2
+Wood3 (Woodwork) rented by Casual1
+Wood4 (Woodwork) rented by Casual4
+#Active rentals = 19
+=====================================
+
+
+--------- Left Rental List ---------
+Wood5 (Woodwork)
+Yard1 (Yardwork)
+Yard2 (Yardwork)
+Yard3 (Yardwork)
+Yard4 (Yardwork)
+#Left rentals = 5
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 3 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+#Completed rentals = 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 3): $143.10
+
+========= Active Rental List =========
+Pain1 (Painting) rented by Regular3
+Pain2 (Painting) rented by Regular3
+Pain3 (Painting) rented by Regular3
+Conc1 (Concrete) rented by Business3
+Conc2 (Concrete) rented by Business3
+Conc3 (Concrete) rented by Business3
+Conc4 (Concrete) rented by Regular1
+Conc5 (Concrete) rented by Business1
+Plum1 (Plumbing) rented by Business1
+Plum2 (Plumbing) rented by Business1
+Pain4 (Painting) rented by Casual3
+Pain5 (Painting) rented by Casual3
+Plum3 (Plumbing) rented by Regular4
+Plum4 (Plumbing) rented by Regular4
+Plum5 (Plumbing) rented by Regular4
+Wood1 (Woodwork) rented by Regular1
+Wood2 (Woodwork) rented by Casual2
+Wood3 (Woodwork) rented by Casual1
+Wood4 (Woodwork) rented by Casual4
+Wood5 (Woodwork) rented by Regular2
+Yard1 (Yardwork) rented by Casual4
+Yard2 (Yardwork) rented by Casual4
+Yard3 (Yardwork) rented by Regular3
+#Active rentals = 23
+=====================================
+
+
+--------- Left Rental List ---------
+Yard4 (Yardwork)
+#Left rentals = 1
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 4 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+Pain1 + 1 protective gear package + 1 extension cord + 1 extension cord + 1 extension cord
+	| Tool type : Painting
+	| price : 30.600000000000005
+	| Renting day : 3
+	| Rented by : Regular3
+Pain2 + 1 protective gear package
+	| Tool type : Painting
+	| price : 30.3
+	| Renting day : 3
+	| Rented by : Regular3
+Pain3 + 1 extension cord
+	| Tool type : Painting
+	| price : 30.1
+	| Renting day : 3
+	| Rented by : Regular3
+Conc4 + 1 extension cord + 1 protective gear package
+	| Tool type : Concrete
+	| price : 33.800000000000004
+	| Renting day : 3
+	| Rented by : Regular1
+Pain4 + 1 protective gear package + 1 extension cord + 1 extension cord
+	| Tool type : Painting
+	| price : 20.500000000000004
+	| Renting day : 2
+	| Rented by : Casual3
+Pain5 + 1 extension cord + 1 extension cord + 1 extension cord
+	| Tool type : Painting
+	| price : 20.300000000000004
+	| Renting day : 2
+	| Rented by : Casual3
+Wood2 + 1 extension cord + 1 extension cord + 1 protective gear package
+	| Tool type : Woodwork
+	| price : 27.999999999999996
+	| Renting day : 2
+	| Rented by : Casual2
+Wood3 + 1 extension cord + 1 extension cord + 1 extension cord + 1 protective gear package + 1 protective gear package + 1 protective gear package
+	| Tool type : Woodwork
+	| price : 30.799999999999994
+	| Renting day : 2
+	| Rented by : Casual1
+Wood4 + 1 extension cord + 1 extension cord
+	| Tool type : Woodwork
+	| price : 26.799999999999997
+	| Renting day : 2
+	| Rented by : Casual4
+#Completed rentals = 9
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 4): $172.10
+
+========= Active Rental List =========
+Conc1 (Concrete) rented by Business3
+Conc2 (Concrete) rented by Business3
+Conc3 (Concrete) rented by Business3
+Conc5 (Concrete) rented by Business1
+Plum1 (Plumbing) rented by Business1
+Plum2 (Plumbing) rented by Business1
+Plum3 (Plumbing) rented by Regular4
+Plum4 (Plumbing) rented by Regular4
+Plum5 (Plumbing) rented by Regular4
+Wood1 (Woodwork) rented by Regular1
+Wood5 (Woodwork) rented by Regular2
+Yard1 (Yardwork) rented by Casual4
+Yard2 (Yardwork) rented by Casual4
+Yard3 (Yardwork) rented by Regular3
+Pain1 (Painting) rented by Casual3
+Pain2 (Painting) rented by Regular3
+Pain3 (Painting) rented by Regular3
+Pain4 (Painting) rented by Regular3
+Pain5 (Painting) rented by Casual2
+#Active rentals = 19
+=====================================
+
+
+--------- Left Rental List ---------
+Conc4 (Concrete)
+Wood2 (Woodwork)
+Wood3 (Woodwork)
+Wood4 (Woodwork)
+Yard4 (Yardwork)
+#Left rentals = 5
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 5 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+Wood1 + 1 extension cord + 1 extension cord + 1 extension cord + 1 protective gear package + 1 protective gear package
+	| Tool type : Woodwork
+	| price : 42.6
+	| Renting day : 3
+	| Rented by : Regular1
+Yard1 + 1 extension cord
+	| Tool type : Yardwork
+	| price : 28.5
+	| Renting day : 2
+	| Rented by : Casual4
+Yard2
+	| Tool type : Yardwork
+	| price : 28.0
+	| Renting day : 2
+	| Rented by : Casual4
+Pain1 + 1 extension cord + 1 protective gear package + 1 extension cord + 1 extension cord
+	| Tool type : Painting
+	| price : 10.6
+	| Renting day : 1
+	| Rented by : Casual3
+Pain5 + 1 extension cord
+	| Tool type : Painting
+	| price : 10.1
+	| Renting day : 1
+	| Rented by : Casual2
+#Completed rentals = 5
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 5): $109.00
+
+========= Active Rental List =========
+Conc1 (Concrete) rented by Business3
+Conc2 (Concrete) rented by Business3
+Conc3 (Concrete) rented by Business3
+Conc5 (Concrete) rented by Business1
+Plum1 (Plumbing) rented by Business1
+Plum2 (Plumbing) rented by Business1
+Plum3 (Plumbing) rented by Regular4
+Plum4 (Plumbing) rented by Regular4
+Plum5 (Plumbing) rented by Regular4
+Wood5 (Woodwork) rented by Regular2
+Yard3 (Yardwork) rented by Regular3
+Pain2 (Painting) rented by Regular3
+Pain3 (Painting) rented by Regular3
+Pain4 (Painting) rented by Regular3
+Pain1 (Painting) rented by Regular1
+Pain5 (Painting) rented by Regular1
+Conc4 (Concrete) rented by Regular1
+Wood1 (Woodwork) rented by Casual4
+#Active rentals = 18
+=====================================
+
+
+--------- Left Rental List ---------
+Wood2 (Woodwork)
+Wood3 (Woodwork)
+Wood4 (Woodwork)
+Yard1 (Yardwork)
+Yard2 (Yardwork)
+Yard4 (Yardwork)
+#Left rentals = 6
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 6 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+Wood5 + 1 protective gear package + 1 extension cord
+	| Tool type : Woodwork
+	| price : 40.6
+	| Renting day : 3
+	| Rented by : Regular2
+Yard3 + 1 protective gear package + 1 protective gear package + 1 extension cord + 1 extension cord
+	| Tool type : Yardwork
+	| price : 46.0
+	| Renting day : 3
+	| Rented by : Regular3
+Wood1 + 1 extension cord + 1 protective gear package + 1 extension cord
+	| Tool type : Woodwork
+	| price : 15.000000000000002
+	| Renting day : 1
+	| Rented by : Casual4
+#Completed rentals = 3
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 6): $381.30
+
+========= Active Rental List =========
+Conc1 (Concrete) rented by Business3
+Conc2 (Concrete) rented by Business3
+Conc3 (Concrete) rented by Business3
+Conc5 (Concrete) rented by Business1
+Plum1 (Plumbing) rented by Business1
+Plum2 (Plumbing) rented by Business1
+Plum3 (Plumbing) rented by Regular4
+Plum4 (Plumbing) rented by Regular4
+Plum5 (Plumbing) rented by Regular4
+Pain2 (Painting) rented by Regular3
+Pain3 (Painting) rented by Regular3
+Pain4 (Painting) rented by Regular3
+Pain1 (Painting) rented by Regular1
+Pain5 (Painting) rented by Regular1
+Conc4 (Concrete) rented by Regular1
+Wood1 (Woodwork) rented by Casual1
+Wood2 (Woodwork) rented by Casual1
+Wood3 (Woodwork) rented by Casual3
+Wood4 (Woodwork) rented by Casual3
+Wood5 (Woodwork) rented by Business1
+Yard1 (Yardwork) rented by Business1
+Yard2 (Yardwork) rented by Business1
+Yard3 (Yardwork) rented by Casual4
+#Active rentals = 23
+=====================================
+
+
+--------- Left Rental List ---------
+Yard4 (Yardwork)
+#Left rentals = 1
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 7 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+Plum3 + 1 extension cord + 1 protective gear package + 1 protective gear package + 1 extension cord + 1 protective gear package + 1 extension cord
+	| Tool type : Plumbing
+	| price : 63.59999999999999
+	| Renting day : 5
+	| Rented by : Regular4
+Plum4 + 1 protective gear package + 1 protective gear package + 1 protective gear package
+	| Tool type : Plumbing
+	| price : 62.699999999999996
+	| Renting day : 5
+	| Rented by : Regular4
+Plum5
+	| Tool type : Plumbing
+	| price : 60.0
+	| Renting day : 5
+	| Rented by : Regular4
+Wood1 + 1 protective gear package + 1 extension cord
+	| Tool type : Woodwork
+	| price : 14.6
+	| Renting day : 1
+	| Rented by : Casual1
+Wood2 + 1 extension cord + 1 protective gear package
+	| Tool type : Woodwork
+	| price : 14.600000000000001
+	| Renting day : 1
+	| Rented by : Casual1
+Wood3 + 1 protective gear package + 1 extension cord + 1 extension cord + 1 protective gear package
+	| Tool type : Woodwork
+	| price : 16.2
+	| Renting day : 1
+	| Rented by : Casual3
+Wood4 + 1 protective gear package + 1 protective gear package + 1 protective gear package + 1 protective gear package + 1 protective gear package + 1 protective gear package
+	| Tool type : Woodwork
+	| price : 20.199999999999996
+	| Renting day : 1
+	| Rented by : Casual3
+Yard3
+	| Tool type : Yardwork
+	| price : 14.0
+	| Renting day : 1
+	| Rented by : Casual4
+#Completed rentals = 8
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 7): $453.30
+
+========= Active Rental List =========
+Conc1 (Concrete) rented by Business3
+Conc2 (Concrete) rented by Business3
+Conc3 (Concrete) rented by Business3
+Conc5 (Concrete) rented by Business1
+Plum1 (Plumbing) rented by Business1
+Plum2 (Plumbing) rented by Business1
+Pain2 (Painting) rented by Regular3
+Pain3 (Painting) rented by Regular3
+Pain4 (Painting) rented by Regular3
+Pain1 (Painting) rented by Regular1
+Pain5 (Painting) rented by Regular1
+Conc4 (Concrete) rented by Regular1
+Wood5 (Woodwork) rented by Business1
+Yard1 (Yardwork) rented by Business1
+Yard2 (Yardwork) rented by Business1
+Plum3 (Plumbing) rented by Regular3
+Plum4 (Plumbing) rented by Regular3
+Plum5 (Plumbing) rented by Regular3
+Wood1 (Woodwork) rented by Casual1
+Wood2 (Woodwork) rented by Business3
+Wood3 (Woodwork) rented by Business3
+Wood4 (Woodwork) rented by Business3
+Yard3 (Yardwork) rented by Casual3
+Yard4 (Yardwork) rented by Casual3
+#Active rentals = 24
+=====================================
+
+
+--------- Left Rental List ---------
+#Left rentals = 0
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 8 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+Conc1 + 1 protective gear package + 1 extension cord + 1 extension cord
+	| Tool type : Concrete
+	| price : 78.0
+	| Renting day : 7
+	| Rented by : Business3
+Conc2 + 1 extension cord + 1 protective gear package + 1 extension cord + 1 extension cord + 1 protective gear package
+	| Tool type : Concrete
+	| price : 78.8
+	| Renting day : 7
+	| Rented by : Business3
+Conc3 + 1 protective gear package + 1 protective gear package + 1 extension cord
+	| Tool type : Concrete
+	| price : 78.39999999999999
+	| Renting day : 7
+	| Rented by : Business3
+Conc5 + 1 protective gear package + 1 protective gear package + 1 extension cord + 1 protective gear package
+	| Tool type : Concrete
+	| price : 78.99999999999999
+	| Renting day : 7
+	| Rented by : Business1
+Plum1 + 1 extension cord + 1 protective gear package + 1 extension cord + 1 extension cord + 1 protective gear package
+	| Tool type : Plumbing
+	| price : 86.7
+	| Renting day : 7
+	| Rented by : Business1
+Plum2 + 1 extension cord + 1 protective gear package + 1 extension cord + 1 protective gear package + 1 protective gear package
+	| Tool type : Plumbing
+	| price : 87.30000000000001
+	| Renting day : 7
+	| Rented by : Business1
+Pain1
+	| Tool type : Painting
+	| price : 30.0
+	| Renting day : 3
+	| Rented by : Regular1
+Pain5 + 1 extension cord + 1 extension cord + 1 protective gear package + 1 protective gear package
+	| Tool type : Painting
+	| price : 30.800000000000004
+	| Renting day : 3
+	| Rented by : Regular1
+Conc4 + 1 extension cord
+	| Tool type : Concrete
+	| price : 33.2
+	| Renting day : 3
+	| Rented by : Regular1
+Yard3 + 1 protective gear package + 1 extension cord + 1 protective gear package + 1 extension cord + 1 extension cord + 1 extension cord
+	| Tool type : Yardwork
+	| price : 19.0
+	| Renting day : 1
+	| Rented by : Casual3
+Yard4 + 1 extension cord + 1 protective gear package + 1 protective gear package + 1 extension cord + 1 extension cord + 1 extension cord
+	| Tool type : Yardwork
+	| price : 19.0
+	| Renting day : 1
+	| Rented by : Casual3
+#Completed rentals = 11
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 8): $768.10
+
+========= Active Rental List =========
+Pain2 (Painting) rented by Regular3
+Pain3 (Painting) rented by Regular3
+Pain4 (Painting) rented by Regular3
+Wood5 (Woodwork) rented by Business1
+Yard1 (Yardwork) rented by Business1
+Yard2 (Yardwork) rented by Business1
+Plum3 (Plumbing) rented by Regular3
+Plum4 (Plumbing) rented by Regular3
+Plum5 (Plumbing) rented by Regular3
+Wood1 (Woodwork) rented by Casual1
+Wood2 (Woodwork) rented by Business3
+Wood3 (Woodwork) rented by Business3
+Wood4 (Woodwork) rented by Business3
+Pain1 (Painting) rented by Business3
+Pain5 (Painting) rented by Business3
+Conc1 (Concrete) rented by Business3
+Conc2 (Concrete) rented by Business2
+Conc3 (Concrete) rented by Business2
+Conc4 (Concrete) rented by Business2
+Conc5 (Concrete) rented by Business1
+Plum1 (Plumbing) rented by Business1
+Plum2 (Plumbing) rented by Business1
+Yard3 (Yardwork) rented by Casual1
+Yard4 (Yardwork) rented by Casual1
+#Active rentals = 24
+=====================================
+
+
+--------- Left Rental List ---------
+#Left rentals = 0
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 9 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+Pain2 + 1 protective gear package + 1 extension cord + 1 protective gear package + 1 extension cord
+	| Tool type : Painting
+	| price : 50.8
+	| Renting day : 5
+	| Rented by : Regular3
+Pain3 + 1 extension cord + 1 extension cord + 1 protective gear package
+	| Tool type : Painting
+	| price : 50.5
+	| Renting day : 5
+	| Rented by : Regular3
+Pain4 + 1 extension cord
+	| Tool type : Painting
+	| price : 50.1
+	| Renting day : 5
+	| Rented by : Regular3
+Wood1 + 1 protective gear package + 1 protective gear package + 1 protective gear package
+	| Tool type : Woodwork
+	| price : 29.599999999999998
+	| Renting day : 2
+	| Rented by : Casual1
+#Completed rentals = 4
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 9): $243.20
+
+========= Active Rental List =========
+Wood5 (Woodwork) rented by Business1
+Yard1 (Yardwork) rented by Business1
+Yard2 (Yardwork) rented by Business1
+Plum3 (Plumbing) rented by Regular3
+Plum4 (Plumbing) rented by Regular3
+Plum5 (Plumbing) rented by Regular3
+Wood2 (Woodwork) rented by Business3
+Wood3 (Woodwork) rented by Business3
+Wood4 (Woodwork) rented by Business3
+Pain1 (Painting) rented by Business3
+Pain5 (Painting) rented by Business3
+Conc1 (Concrete) rented by Business3
+Conc2 (Concrete) rented by Business2
+Conc3 (Concrete) rented by Business2
+Conc4 (Concrete) rented by Business2
+Conc5 (Concrete) rented by Business1
+Plum1 (Plumbing) rented by Business1
+Plum2 (Plumbing) rented by Business1
+Yard3 (Yardwork) rented by Casual1
+Yard4 (Yardwork) rented by Casual1
+Pain2 (Painting) rented by Business3
+Pain3 (Painting) rented by Business3
+Pain4 (Painting) rented by Business3
+Wood1 (Woodwork) rented by Casual2
+#Active rentals = 24
+=====================================
+
+
+--------- Left Rental List ---------
+#Left rentals = 0
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 10 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+Plum3 + 1 protective gear package + 1 extension cord + 1 extension cord + 1 protective gear package + 1 extension cord
+	| Tool type : Plumbing
+	| price : 38.69999999999999
+	| Renting day : 3
+	| Rented by : Regular3
+Plum4
+	| Tool type : Plumbing
+	| price : 36.0
+	| Renting day : 3
+	| Rented by : Regular3
+Plum5
+	| Tool type : Plumbing
+	| price : 36.0
+	| Renting day : 3
+	| Rented by : Regular3
+Yard3 + 1 protective gear package + 1 protective gear package + 1 protective gear package
+	| Tool type : Yardwork
+	| price : 32.5
+	| Renting day : 2
+	| Rented by : Casual1
+Yard4 + 1 extension cord + 1 extension cord + 1 extension cord + 1 protective gear package
+	| Tool type : Yardwork
+	| price : 31.0
+	| Renting day : 2
+	| Rented by : Casual1
+#Completed rentals = 5
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 10): $78.60
+
+========= Active Rental List =========
+Wood5 (Woodwork) rented by Business1
+Yard1 (Yardwork) rented by Business1
+Yard2 (Yardwork) rented by Business1
+Wood2 (Woodwork) rented by Business3
+Wood3 (Woodwork) rented by Business3
+Wood4 (Woodwork) rented by Business3
+Pain1 (Painting) rented by Business3
+Pain5 (Painting) rented by Business3
+Conc1 (Concrete) rented by Business3
+Conc2 (Concrete) rented by Business2
+Conc3 (Concrete) rented by Business2
+Conc4 (Concrete) rented by Business2
+Conc5 (Concrete) rented by Business1
+Plum1 (Plumbing) rented by Business1
+Plum2 (Plumbing) rented by Business1
+Pain2 (Painting) rented by Business3
+Pain3 (Painting) rented by Business3
+Pain4 (Painting) rented by Business3
+Wood1 (Woodwork) rented by Casual2
+Plum3 (Plumbing) rented by Regular2
+Plum4 (Plumbing) rented by Regular2
+#Active rentals = 21
+=====================================
+
+
+--------- Left Rental List ---------
+Plum5 (Plumbing)
+Yard3 (Yardwork)
+Yard4 (Yardwork)
+#Left rentals = 3
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 11 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+Wood1 + 1 extension cord + 1 protective gear package + 1 protective gear package + 1 extension cord + 1 extension cord
+	| Tool type : Woodwork
+	| price : 29.599999999999994
+	| Renting day : 2
+	| Rented by : Casual2
+#Completed rentals = 1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 11): $111.00
+
+========= Active Rental List =========
+Wood5 (Woodwork) rented by Business1
+Yard1 (Yardwork) rented by Business1
+Yard2 (Yardwork) rented by Business1
+Wood2 (Woodwork) rented by Business3
+Wood3 (Woodwork) rented by Business3
+Wood4 (Woodwork) rented by Business3
+Pain1 (Painting) rented by Business3
+Pain5 (Painting) rented by Business3
+Conc1 (Concrete) rented by Business3
+Conc2 (Concrete) rented by Business2
+Conc3 (Concrete) rented by Business2
+Conc4 (Concrete) rented by Business2
+Conc5 (Concrete) rented by Business1
+Plum1 (Plumbing) rented by Business1
+Plum2 (Plumbing) rented by Business1
+Pain2 (Painting) rented by Business3
+Pain3 (Painting) rented by Business3
+Pain4 (Painting) rented by Business3
+Plum3 (Plumbing) rented by Regular2
+Plum4 (Plumbing) rented by Regular2
+Plum5 (Plumbing) rented by Casual2
+Wood1 (Woodwork) rented by Casual2
+Yard3 (Yardwork) rented by Casual4
+Yard4 (Yardwork) rented by Casual4
+#Active rentals = 24
+=====================================
+
+
+--------- Left Rental List ---------
+#Left rentals = 0
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 12 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+#Completed rentals = 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 12): $0.00
+
+========= Active Rental List =========
+Wood5 (Woodwork) rented by Business1
+Yard1 (Yardwork) rented by Business1
+Yard2 (Yardwork) rented by Business1
+Wood2 (Woodwork) rented by Business3
+Wood3 (Woodwork) rented by Business3
+Wood4 (Woodwork) rented by Business3
+Pain1 (Painting) rented by Business3
+Pain5 (Painting) rented by Business3
+Conc1 (Concrete) rented by Business3
+Conc2 (Concrete) rented by Business2
+Conc3 (Concrete) rented by Business2
+Conc4 (Concrete) rented by Business2
+Conc5 (Concrete) rented by Business1
+Plum1 (Plumbing) rented by Business1
+Plum2 (Plumbing) rented by Business1
+Pain2 (Painting) rented by Business3
+Pain3 (Painting) rented by Business3
+Pain4 (Painting) rented by Business3
+Plum3 (Plumbing) rented by Regular2
+Plum4 (Plumbing) rented by Regular2
+Plum5 (Plumbing) rented by Casual2
+Wood1 (Woodwork) rented by Casual2
+Yard3 (Yardwork) rented by Casual4
+Yard4 (Yardwork) rented by Casual4
+#Active rentals = 24
+=====================================
+
+
+--------- Left Rental List ---------
+#Left rentals = 0
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 13 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+Wood5 + 1 protective gear package + 1 protective gear package + 1 extension cord + 1 protective gear package + 1 protective gear package
+	| Tool type : Woodwork
+	| price : 96.20000000000002
+	| Renting day : 7
+	| Rented by : Business1
+Yard1 + 1 protective gear package + 1 extension cord + 1 extension cord + 1 protective gear package + 1 protective gear package + 1 protective gear package
+	| Tool type : Yardwork
+	| price : 105.0
+	| Renting day : 7
+	| Rented by : Business1
+Yard2 + 1 extension cord + 1 protective gear package + 1 extension cord
+	| Tool type : Yardwork
+	| price : 100.5
+	| Renting day : 7
+	| Rented by : Business1
+Plum3 + 1 extension cord + 1 protective gear package + 1 protective gear package + 1 protective gear package + 1 protective gear package + 1 protective gear package
+	| Tool type : Plumbing
+	| price : 40.79999999999999
+	| Renting day : 3
+	| Rented by : Regular2
+Plum4 + 1 extension cord + 1 protective gear package + 1 extension cord + 1 extension cord
+	| Tool type : Plumbing
+	| price : 37.79999999999999
+	| Renting day : 3
+	| Rented by : Regular2
+Plum5 + 1 protective gear package + 1 extension cord + 1 extension cord
+	| Tool type : Plumbing
+	| price : 25.5
+	| Renting day : 2
+	| Rented by : Casual2
+Wood1 + 1 extension cord + 1 protective gear package + 1 extension cord
+	| Tool type : Woodwork
+	| price : 27.999999999999996
+	| Renting day : 2
+	| Rented by : Casual2
+Yard3 + 1 extension cord + 1 extension cord
+	| Tool type : Yardwork
+	| price : 29.0
+	| Renting day : 2
+	| Rented by : Casual4
+Yard4 + 1 extension cord
+	| Tool type : Yardwork
+	| price : 28.5
+	| Renting day : 2
+	| Rented by : Casual4
+#Completed rentals = 9
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 13): $441.50
+
+========= Active Rental List =========
+Wood2 (Woodwork) rented by Business3
+Wood3 (Woodwork) rented by Business3
+Wood4 (Woodwork) rented by Business3
+Pain1 (Painting) rented by Business3
+Pain5 (Painting) rented by Business3
+Conc1 (Concrete) rented by Business3
+Conc2 (Concrete) rented by Business2
+Conc3 (Concrete) rented by Business2
+Conc4 (Concrete) rented by Business2
+Conc5 (Concrete) rented by Business1
+Plum1 (Plumbing) rented by Business1
+Plum2 (Plumbing) rented by Business1
+Pain2 (Painting) rented by Business3
+Pain3 (Painting) rented by Business3
+Pain4 (Painting) rented by Business3
+Plum3 (Plumbing) rented by Regular4
+Plum4 (Plumbing) rented by Regular4
+Plum5 (Plumbing) rented by Business4
+Wood1 (Woodwork) rented by Business4
+Wood5 (Woodwork) rented by Business4
+Yard1 (Yardwork) rented by Casual3
+Yard2 (Yardwork) rented by Casual3
+Yard3 (Yardwork) rented by Casual1
+Yard4 (Yardwork) rented by Casual1
+#Active rentals = 24
+=====================================
+
+
+--------- Left Rental List ---------
+#Left rentals = 0
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 14 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+Wood2
+	| Tool type : Woodwork
+	| price : 91.0
+	| Renting day : 7
+	| Rented by : Business3
+Wood3
+	| Tool type : Woodwork
+	| price : 91.0
+	| Renting day : 7
+	| Rented by : Business3
+Wood4 + 1 extension cord + 1 protective gear package + 1 extension cord
+	| Tool type : Woodwork
+	| price : 93.00000000000001
+	| Renting day : 7
+	| Rented by : Business3
+Yard1 + 1 extension cord + 1 protective gear package + 1 extension cord + 1 protective gear package + 1 extension cord
+	| Tool type : Yardwork
+	| price : 18.5
+	| Renting day : 1
+	| Rented by : Casual3
+Yard2 + 1 extension cord + 1 extension cord
+	| Tool type : Yardwork
+	| price : 15.0
+	| Renting day : 1
+	| Rented by : Casual3
+Yard3 + 1 extension cord + 1 extension cord + 1 extension cord + 1 protective gear package
+	| Tool type : Yardwork
+	| price : 17.0
+	| Renting day : 1
+	| Rented by : Casual1
+Yard4 + 1 extension cord + 1 protective gear package + 1 extension cord + 1 extension cord + 1 protective gear package + 1 extension cord
+	| Tool type : Yardwork
+	| price : 19.0
+	| Renting day : 1
+	| Rented by : Casual1
+#Completed rentals = 7
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 14): $542.00
+
+========= Active Rental List =========
+Pain1 (Painting) rented by Business3
+Pain5 (Painting) rented by Business3
+Conc1 (Concrete) rented by Business3
+Conc2 (Concrete) rented by Business2
+Conc3 (Concrete) rented by Business2
+Conc4 (Concrete) rented by Business2
+Conc5 (Concrete) rented by Business1
+Plum1 (Plumbing) rented by Business1
+Plum2 (Plumbing) rented by Business1
+Pain2 (Painting) rented by Business3
+Pain3 (Painting) rented by Business3
+Pain4 (Painting) rented by Business3
+Plum3 (Plumbing) rented by Regular4
+Plum4 (Plumbing) rented by Regular4
+Plum5 (Plumbing) rented by Business4
+Wood1 (Woodwork) rented by Business4
+Wood5 (Woodwork) rented by Business4
+Wood2 (Woodwork) rented by Regular4
+Wood3 (Woodwork) rented by Casual3
+Wood4 (Woodwork) rented by Regular2
+Yard1 (Yardwork) rented by Regular2
+Yard2 (Yardwork) rented by Business1
+Yard3 (Yardwork) rented by Business1
+Yard4 (Yardwork) rented by Business1
+#Active rentals = 24
+=====================================
+
+
+--------- Left Rental List ---------
+#Left rentals = 0
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 15 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+Pain1 + 1 protective gear package + 1 protective gear package + 1 protective gear package + 1 extension cord + 1 protective gear package + 1 extension cord
+	| Tool type : Painting
+	| price : 71.39999999999998
+	| Renting day : 7
+	| Rented by : Business3
+Pain5 + 1 extension cord + 1 extension cord
+	| Tool type : Painting
+	| price : 70.19999999999999
+	| Renting day : 7
+	| Rented by : Business3
+Conc1
+	| Tool type : Concrete
+	| price : 77.0
+	| Renting day : 7
+	| Rented by : Business3
+Conc2 + 1 extension cord + 1 extension cord + 1 protective gear package
+	| Tool type : Concrete
+	| price : 78.0
+	| Renting day : 7
+	| Rented by : Business2
+Conc3
+	| Tool type : Concrete
+	| price : 77.0
+	| Renting day : 7
+	| Rented by : Business2
+Conc4 + 1 protective gear package + 1 extension cord + 1 protective gear package + 1 extension cord + 1 protective gear package
+	| Tool type : Concrete
+	| price : 79.19999999999999
+	| Renting day : 7
+	| Rented by : Business2
+Conc5 + 1 extension cord + 1 protective gear package + 1 extension cord + 1 extension cord + 1 extension cord + 1 protective gear package
+	| Tool type : Concrete
+	| price : 79.0
+	| Renting day : 7
+	| Rented by : Business1
+Plum1
+	| Tool type : Plumbing
+	| price : 84.0
+	| Renting day : 7
+	| Rented by : Business1
+Plum2 + 1 protective gear package + 1 protective gear package + 1 protective gear package + 1 protective gear package + 1 protective gear package + 1 extension cord
+	| Tool type : Plumbing
+	| price : 88.80000000000003
+	| Renting day : 7
+	| Rented by : Business1
+#Completed rentals = 9
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 15): $220.50
+
+========= Active Rental List =========
+Pain2 (Painting) rented by Business3
+Pain3 (Painting) rented by Business3
+Pain4 (Painting) rented by Business3
+Plum3 (Plumbing) rented by Regular4
+Plum4 (Plumbing) rented by Regular4
+Plum5 (Plumbing) rented by Business4
+Wood1 (Woodwork) rented by Business4
+Wood5 (Woodwork) rented by Business4
+Wood2 (Woodwork) rented by Regular4
+Wood3 (Woodwork) rented by Casual3
+Wood4 (Woodwork) rented by Regular2
+Yard1 (Yardwork) rented by Regular2
+Yard2 (Yardwork) rented by Business1
+Yard3 (Yardwork) rented by Business1
+Yard4 (Yardwork) rented by Business1
+Pain1 (Painting) rented by Business1
+Pain5 (Painting) rented by Business1
+Conc1 (Concrete) rented by Business1
+#Active rentals = 18
+=====================================
+
+
+--------- Left Rental List ---------
+Conc2 (Concrete)
+Conc3 (Concrete)
+Conc4 (Concrete)
+Conc5 (Concrete)
+Plum1 (Plumbing)
+Plum2 (Plumbing)
+#Left rentals = 6
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 16 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+Pain2 + 1 protective gear package + 1 extension cord + 1 protective gear package + 1 protective gear package + 1 protective gear package + 1 extension cord
+	| Tool type : Painting
+	| price : 71.39999999999998
+	| Renting day : 7
+	| Rented by : Business3
+Pain3 + 1 protective gear package + 1 extension cord + 1 extension cord + 1 protective gear package
+	| Tool type : Painting
+	| price : 70.79999999999998
+	| Renting day : 7
+	| Rented by : Business3
+Pain4 + 1 protective gear package + 1 protective gear package + 1 protective gear package + 1 extension cord + 1 extension cord + 1 protective gear package
+	| Tool type : Painting
+	| price : 71.39999999999998
+	| Renting day : 7
+	| Rented by : Business3
+Wood3 + 1 extension cord + 1 protective gear package + 1 extension cord + 1 extension cord + 1 extension cord + 1 extension cord
+	| Tool type : Woodwork
+	| price : 29.199999999999992
+	| Renting day : 2
+	| Rented by : Casual3
+#Completed rentals = 4
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 16): $522.10
+
+========= Active Rental List =========
+Plum3 (Plumbing) rented by Regular4
+Plum4 (Plumbing) rented by Regular4
+Plum5 (Plumbing) rented by Business4
+Wood1 (Woodwork) rented by Business4
+Wood5 (Woodwork) rented by Business4
+Wood2 (Woodwork) rented by Regular4
+Wood4 (Woodwork) rented by Regular2
+Yard1 (Yardwork) rented by Regular2
+Yard2 (Yardwork) rented by Business1
+Yard3 (Yardwork) rented by Business1
+Yard4 (Yardwork) rented by Business1
+Pain1 (Painting) rented by Business1
+Pain5 (Painting) rented by Business1
+Conc1 (Concrete) rented by Business1
+Pain2 (Painting) rented by Business4
+Pain3 (Painting) rented by Business4
+Pain4 (Painting) rented by Business4
+Conc2 (Concrete) rented by Business3
+Conc3 (Concrete) rented by Business3
+Conc4 (Concrete) rented by Business3
+Conc5 (Concrete) rented by Casual1
+Plum1 (Plumbing) rented by Casual1
+Plum2 (Plumbing) rented by Casual3
+Wood3 (Woodwork) rented by Casual3
+#Active rentals = 24
+=====================================
+
+
+--------- Left Rental List ---------
+#Left rentals = 0
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 17 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+Plum3 + 1 protective gear package + 1 extension cord + 1 extension cord
+	| Tool type : Plumbing
+	| price : 49.49999999999999
+	| Renting day : 4
+	| Rented by : Regular4
+Plum4 + 1 extension cord + 1 extension cord + 1 extension cord
+	| Tool type : Plumbing
+	| price : 48.89999999999999
+	| Renting day : 4
+	| Rented by : Regular4
+Plum2 + 1 extension cord
+	| Tool type : Plumbing
+	| price : 12.3
+	| Renting day : 1
+	| Rented by : Casual3
+Wood3 + 1 protective gear package
+	| Tool type : Woodwork
+	| price : 14.2
+	| Renting day : 1
+	| Rented by : Casual3
+#Completed rentals = 4
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 17): $327.10
+
+========= Active Rental List =========
+Plum5 (Plumbing) rented by Business4
+Wood1 (Woodwork) rented by Business4
+Wood5 (Woodwork) rented by Business4
+Wood2 (Woodwork) rented by Regular4
+Wood4 (Woodwork) rented by Regular2
+Yard1 (Yardwork) rented by Regular2
+Yard2 (Yardwork) rented by Business1
+Yard3 (Yardwork) rented by Business1
+Yard4 (Yardwork) rented by Business1
+Pain1 (Painting) rented by Business1
+Pain5 (Painting) rented by Business1
+Conc1 (Concrete) rented by Business1
+Pain2 (Painting) rented by Business4
+Pain3 (Painting) rented by Business4
+Pain4 (Painting) rented by Business4
+Conc2 (Concrete) rented by Business3
+Conc3 (Concrete) rented by Business3
+Conc4 (Concrete) rented by Business3
+Conc5 (Concrete) rented by Casual1
+Plum1 (Plumbing) rented by Casual1
+Plum2 (Plumbing) rented by Regular4
+Plum3 (Plumbing) rented by Business2
+Plum4 (Plumbing) rented by Business2
+Wood3 (Woodwork) rented by Business2
+#Active rentals = 24
+=====================================
+
+
+--------- Left Rental List ---------
+#Left rentals = 0
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 18 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+Conc5 + 1 extension cord + 1 extension cord + 1 protective gear package
+	| Tool type : Concrete
+	| price : 23.0
+	| Renting day : 2
+	| Rented by : Casual1
+Plum1 + 1 protective gear package + 1 extension cord + 1 protective gear package + 1 protective gear package + 1 protective gear package
+	| Tool type : Plumbing
+	| price : 27.899999999999995
+	| Renting day : 2
+	| Rented by : Casual1
+#Completed rentals = 2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 18): $58.90
+
+========= Active Rental List =========
+Plum5 (Plumbing) rented by Business4
+Wood1 (Woodwork) rented by Business4
+Wood5 (Woodwork) rented by Business4
+Wood2 (Woodwork) rented by Regular4
+Wood4 (Woodwork) rented by Regular2
+Yard1 (Yardwork) rented by Regular2
+Yard2 (Yardwork) rented by Business1
+Yard3 (Yardwork) rented by Business1
+Yard4 (Yardwork) rented by Business1
+Pain1 (Painting) rented by Business1
+Pain5 (Painting) rented by Business1
+Conc1 (Concrete) rented by Business1
+Pain2 (Painting) rented by Business4
+Pain3 (Painting) rented by Business4
+Pain4 (Painting) rented by Business4
+Conc2 (Concrete) rented by Business3
+Conc3 (Concrete) rented by Business3
+Conc4 (Concrete) rented by Business3
+Plum2 (Plumbing) rented by Regular4
+Plum3 (Plumbing) rented by Business2
+Plum4 (Plumbing) rented by Business2
+Wood3 (Woodwork) rented by Business2
+Conc5 (Concrete) rented by Regular3
+Plum1 (Plumbing) rented by Casual2
+#Active rentals = 24
+=====================================
+
+
+--------- Left Rental List ---------
+#Left rentals = 0
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 19 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+Wood2 + 1 extension cord + 1 protective gear package + 1 extension cord + 1 extension cord + 1 protective gear package + 1 protective gear package
+	| Tool type : Woodwork
+	| price : 69.80000000000003
+	| Renting day : 5
+	| Rented by : Regular4
+Wood4 + 1 protective gear package + 1 extension cord + 1 extension cord
+	| Tool type : Woodwork
+	| price : 67.00000000000001
+	| Renting day : 5
+	| Rented by : Regular2
+Yard1 + 1 protective gear package + 1 protective gear package + 1 extension cord + 1 extension cord
+	| Tool type : Yardwork
+	| price : 74.0
+	| Renting day : 5
+	| Rented by : Regular2
+Plum1 + 1 protective gear package + 1 extension cord + 1 protective gear package
+	| Tool type : Plumbing
+	| price : 14.100000000000001
+	| Renting day : 1
+	| Rented by : Casual2
+#Completed rentals = 4
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 19): $300.40
+
+========= Active Rental List =========
+Plum5 (Plumbing) rented by Business4
+Wood1 (Woodwork) rented by Business4
+Wood5 (Woodwork) rented by Business4
+Yard2 (Yardwork) rented by Business1
+Yard3 (Yardwork) rented by Business1
+Yard4 (Yardwork) rented by Business1
+Pain1 (Painting) rented by Business1
+Pain5 (Painting) rented by Business1
+Conc1 (Concrete) rented by Business1
+Pain2 (Painting) rented by Business4
+Pain3 (Painting) rented by Business4
+Pain4 (Painting) rented by Business4
+Conc2 (Concrete) rented by Business3
+Conc3 (Concrete) rented by Business3
+Conc4 (Concrete) rented by Business3
+Plum2 (Plumbing) rented by Regular4
+Plum3 (Plumbing) rented by Business2
+Plum4 (Plumbing) rented by Business2
+Wood3 (Woodwork) rented by Business2
+Conc5 (Concrete) rented by Regular3
+Plum1 (Plumbing) rented by Business3
+Wood2 (Woodwork) rented by Business3
+Wood4 (Woodwork) rented by Business3
+Yard1 (Yardwork) rented by Casual1
+#Active rentals = 24
+=====================================
+
+
+--------- Left Rental List ---------
+#Left rentals = 0
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 20 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+Plum5
+	| Tool type : Plumbing
+	| price : 84.0
+	| Renting day : 7
+	| Rented by : Business4
+Wood1 + 1 protective gear package + 1 protective gear package + 1 protective gear package
+	| Tool type : Woodwork
+	| price : 94.60000000000001
+	| Renting day : 7
+	| Rented by : Business4
+Wood5 + 1 protective gear package + 1 protective gear package + 1 extension cord + 1 protective gear package
+	| Tool type : Woodwork
+	| price : 95.00000000000001
+	| Renting day : 7
+	| Rented by : Business4
+#Completed rentals = 3
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 20): $57.30
+
+========= Active Rental List =========
+Yard2 (Yardwork) rented by Business1
+Yard3 (Yardwork) rented by Business1
+Yard4 (Yardwork) rented by Business1
+Pain1 (Painting) rented by Business1
+Pain5 (Painting) rented by Business1
+Conc1 (Concrete) rented by Business1
+Pain2 (Painting) rented by Business4
+Pain3 (Painting) rented by Business4
+Pain4 (Painting) rented by Business4
+Conc2 (Concrete) rented by Business3
+Conc3 (Concrete) rented by Business3
+Conc4 (Concrete) rented by Business3
+Plum2 (Plumbing) rented by Regular4
+Plum3 (Plumbing) rented by Business2
+Plum4 (Plumbing) rented by Business2
+Wood3 (Woodwork) rented by Business2
+Conc5 (Concrete) rented by Regular3
+Plum1 (Plumbing) rented by Business3
+Wood2 (Woodwork) rented by Business3
+Wood4 (Woodwork) rented by Business3
+Yard1 (Yardwork) rented by Casual1
+Plum5 (Plumbing) rented by Casual3
+Wood1 (Woodwork) rented by Casual3
+Wood5 (Woodwork) rented by Casual2
+#Active rentals = 24
+=====================================
+
+
+--------- Left Rental List ---------
+#Left rentals = 0
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 21 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+Yard2 + 1 extension cord + 1 extension cord + 1 protective gear package + 1 extension cord + 1 protective gear package + 1 extension cord
+	| Tool type : Yardwork
+	| price : 103.0
+	| Renting day : 7
+	| Rented by : Business1
+Yard3 + 1 protective gear package
+	| Tool type : Yardwork
+	| price : 99.5
+	| Renting day : 7
+	| Rented by : Business1
+Yard4 + 1 extension cord + 1 extension cord + 1 extension cord
+	| Tool type : Yardwork
+	| price : 99.5
+	| Renting day : 7
+	| Rented by : Business1
+Yard1 + 1 protective gear package + 1 extension cord
+	| Tool type : Yardwork
+	| price : 30.0
+	| Renting day : 2
+	| Rented by : Casual1
+Plum5 + 1 extension cord + 1 extension cord + 1 protective gear package
+	| Tool type : Plumbing
+	| price : 13.500000000000002
+	| Renting day : 1
+	| Rented by : Casual3
+Wood1 + 1 protective gear package
+	| Tool type : Woodwork
+	| price : 14.2
+	| Renting day : 1
+	| Rented by : Casual3
+#Completed rentals = 6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 21): $330.10
+
+========= Active Rental List =========
+Pain1 (Painting) rented by Business1
+Pain5 (Painting) rented by Business1
+Conc1 (Concrete) rented by Business1
+Pain2 (Painting) rented by Business4
+Pain3 (Painting) rented by Business4
+Pain4 (Painting) rented by Business4
+Conc2 (Concrete) rented by Business3
+Conc3 (Concrete) rented by Business3
+Conc4 (Concrete) rented by Business3
+Plum2 (Plumbing) rented by Regular4
+Plum3 (Plumbing) rented by Business2
+Plum4 (Plumbing) rented by Business2
+Wood3 (Woodwork) rented by Business2
+Conc5 (Concrete) rented by Regular3
+Plum1 (Plumbing) rented by Business3
+Wood2 (Woodwork) rented by Business3
+Wood4 (Woodwork) rented by Business3
+Wood5 (Woodwork) rented by Casual2
+Plum5 (Plumbing) rented by Business1
+Wood1 (Woodwork) rented by Business1
+Yard1 (Yardwork) rented by Business1
+Yard2 (Yardwork) rented by Casual1
+Yard3 (Yardwork) rented by Casual1
+Yard4 (Yardwork) rented by Casual3
+#Active rentals = 24
+=====================================
+
+
+--------- Left Rental List ---------
+#Left rentals = 0
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 22 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+Pain1 + 1 protective gear package + 1 protective gear package + 1 extension cord + 1 protective gear package
+	| Tool type : Painting
+	| price : 70.99999999999999
+	| Renting day : 7
+	| Rented by : Business1
+Pain5 + 1 extension cord
+	| Tool type : Painting
+	| price : 70.1
+	| Renting day : 7
+	| Rented by : Business1
+Conc1 + 1 extension cord + 1 protective gear package + 1 extension cord + 1 extension cord + 1 protective gear package + 1 protective gear package
+	| Tool type : Concrete
+	| price : 79.39999999999999
+	| Renting day : 7
+	| Rented by : Business1
+Plum2 + 1 extension cord + 1 protective gear package + 1 extension cord + 1 extension cord
+	| Tool type : Plumbing
+	| price : 61.79999999999999
+	| Renting day : 5
+	| Rented by : Regular4
+Conc5 + 1 protective gear package + 1 extension cord
+	| Tool type : Concrete
+	| price : 44.800000000000004
+	| Renting day : 4
+	| Rented by : Regular3
+Wood5 + 1 protective gear package + 1 protective gear package + 1 protective gear package
+	| Tool type : Woodwork
+	| price : 29.599999999999998
+	| Renting day : 2
+	| Rented by : Casual2
+Yard2 + 1 extension cord
+	| Tool type : Yardwork
+	| price : 14.5
+	| Renting day : 1
+	| Rented by : Casual1
+Yard3 + 1 extension cord + 1 protective gear package + 1 protective gear package + 1 protective gear package
+	| Tool type : Yardwork
+	| price : 19.0
+	| Renting day : 1
+	| Rented by : Casual1
+Yard4 + 1 extension cord + 1 extension cord + 1 protective gear package + 1 protective gear package + 1 protective gear package
+	| Tool type : Yardwork
+	| price : 19.5
+	| Renting day : 1
+	| Rented by : Casual3
+#Completed rentals = 9
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 22): $415.90
+
+========= Active Rental List =========
+Pain2 (Painting) rented by Business4
+Pain3 (Painting) rented by Business4
+Pain4 (Painting) rented by Business4
+Conc2 (Concrete) rented by Business3
+Conc3 (Concrete) rented by Business3
+Conc4 (Concrete) rented by Business3
+Plum3 (Plumbing) rented by Business2
+Plum4 (Plumbing) rented by Business2
+Wood3 (Woodwork) rented by Business2
+Plum1 (Plumbing) rented by Business3
+Wood2 (Woodwork) rented by Business3
+Wood4 (Woodwork) rented by Business3
+Plum5 (Plumbing) rented by Business1
+Wood1 (Woodwork) rented by Business1
+Yard1 (Yardwork) rented by Business1
+Pain1 (Painting) rented by Business1
+Pain5 (Painting) rented by Business1
+Conc1 (Concrete) rented by Business1
+Conc5 (Concrete) rented by Regular1
+Plum2 (Plumbing) rented by Regular1
+Wood5 (Woodwork) rented by Casual3
+Yard2 (Yardwork) rented by Casual3
+Yard3 (Yardwork) rented by Casual4
+Yard4 (Yardwork) rented by Casual2
+#Active rentals = 24
+=====================================
+
+
+--------- Left Rental List ---------
+#Left rentals = 0
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 23 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+Pain2 + 1 protective gear package
+	| Tool type : Painting
+	| price : 70.3
+	| Renting day : 7
+	| Rented by : Business4
+Pain3 + 1 protective gear package + 1 protective gear package + 1 protective gear package + 1 protective gear package
+	| Tool type : Painting
+	| price : 71.19999999999999
+	| Renting day : 7
+	| Rented by : Business4
+Pain4 + 1 extension cord + 1 extension cord
+	| Tool type : Painting
+	| price : 70.19999999999999
+	| Renting day : 7
+	| Rented by : Business4
+Conc2 + 1 protective gear package + 1 protective gear package
+	| Tool type : Concrete
+	| price : 78.19999999999999
+	| Renting day : 7
+	| Rented by : Business3
+Conc3 + 1 extension cord + 1 protective gear package
+	| Tool type : Concrete
+	| price : 77.8
+	| Renting day : 7
+	| Rented by : Business3
+Conc4
+	| Tool type : Concrete
+	| price : 77.0
+	| Renting day : 7
+	| Rented by : Business3
+Yard4 + 1 extension cord
+	| Tool type : Yardwork
+	| price : 14.5
+	| Renting day : 1
+	| Rented by : Casual2
+#Completed rentals = 7
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 23): $524.60
+
+========= Active Rental List =========
+Plum3 (Plumbing) rented by Business2
+Plum4 (Plumbing) rented by Business2
+Wood3 (Woodwork) rented by Business2
+Plum1 (Plumbing) rented by Business3
+Wood2 (Woodwork) rented by Business3
+Wood4 (Woodwork) rented by Business3
+Plum5 (Plumbing) rented by Business1
+Wood1 (Woodwork) rented by Business1
+Yard1 (Yardwork) rented by Business1
+Pain1 (Painting) rented by Business1
+Pain5 (Painting) rented by Business1
+Conc1 (Concrete) rented by Business1
+Conc5 (Concrete) rented by Regular1
+Plum2 (Plumbing) rented by Regular1
+Wood5 (Woodwork) rented by Casual3
+Yard2 (Yardwork) rented by Casual3
+Yard3 (Yardwork) rented by Casual4
+Pain2 (Painting) rented by Regular2
+Pain3 (Painting) rented by Business4
+Pain4 (Painting) rented by Business4
+Conc2 (Concrete) rented by Business4
+Conc3 (Concrete) rented by Business2
+Conc4 (Concrete) rented by Business2
+Yard4 (Yardwork) rented by Business2
+#Active rentals = 24
+=====================================
+
+
+--------- Left Rental List ---------
+#Left rentals = 0
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 24 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+Plum3 + 1 extension cord + 1 extension cord + 1 protective gear package + 1 extension cord + 1 protective gear package
+	| Tool type : Plumbing
+	| price : 86.7
+	| Renting day : 7
+	| Rented by : Business2
+Plum4
+	| Tool type : Plumbing
+	| price : 84.0
+	| Renting day : 7
+	| Rented by : Business2
+Wood3 + 1 protective gear package + 1 protective gear package + 1 protective gear package
+	| Tool type : Woodwork
+	| price : 94.60000000000001
+	| Renting day : 7
+	| Rented by : Business2
+Wood5
+	| Tool type : Woodwork
+	| price : 26.0
+	| Renting day : 2
+	| Rented by : Casual3
+Yard2 + 1 extension cord + 1 protective gear package
+	| Tool type : Yardwork
+	| price : 30.0
+	| Renting day : 2
+	| Rented by : Casual3
+Yard3
+	| Tool type : Yardwork
+	| price : 28.0
+	| Renting day : 2
+	| Rented by : Casual4
+#Completed rentals = 6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 24): $296.60
+
+========= Active Rental List =========
+Plum1 (Plumbing) rented by Business3
+Wood2 (Woodwork) rented by Business3
+Wood4 (Woodwork) rented by Business3
+Plum5 (Plumbing) rented by Business1
+Wood1 (Woodwork) rented by Business1
+Yard1 (Yardwork) rented by Business1
+Pain1 (Painting) rented by Business1
+Pain5 (Painting) rented by Business1
+Conc1 (Concrete) rented by Business1
+Conc5 (Concrete) rented by Regular1
+Plum2 (Plumbing) rented by Regular1
+Pain2 (Painting) rented by Regular2
+Pain3 (Painting) rented by Business4
+Pain4 (Painting) rented by Business4
+Conc2 (Concrete) rented by Business4
+Conc3 (Concrete) rented by Business2
+Conc4 (Concrete) rented by Business2
+Yard4 (Yardwork) rented by Business2
+Plum3 (Plumbing) rented by Regular4
+Plum4 (Plumbing) rented by Regular4
+Wood3 (Woodwork) rented by Regular4
+Wood5 (Woodwork) rented by Casual3
+Yard2 (Yardwork) rented by Casual1
+Yard3 (Yardwork) rented by Regular2
+#Active rentals = 24
+=====================================
+
+
+--------- Left Rental List ---------
+#Left rentals = 0
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 25 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+Yard2 + 1 protective gear package
+	| Tool type : Yardwork
+	| price : 15.5
+	| Renting day : 1
+	| Rented by : Casual1
+#Completed rentals = 1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 25): $71.50
+
+========= Active Rental List =========
+Plum1 (Plumbing) rented by Business3
+Wood2 (Woodwork) rented by Business3
+Wood4 (Woodwork) rented by Business3
+Plum5 (Plumbing) rented by Business1
+Wood1 (Woodwork) rented by Business1
+Yard1 (Yardwork) rented by Business1
+Pain1 (Painting) rented by Business1
+Pain5 (Painting) rented by Business1
+Conc1 (Concrete) rented by Business1
+Conc5 (Concrete) rented by Regular1
+Plum2 (Plumbing) rented by Regular1
+Pain2 (Painting) rented by Regular2
+Pain3 (Painting) rented by Business4
+Pain4 (Painting) rented by Business4
+Conc2 (Concrete) rented by Business4
+Conc3 (Concrete) rented by Business2
+Conc4 (Concrete) rented by Business2
+Yard4 (Yardwork) rented by Business2
+Plum3 (Plumbing) rented by Regular4
+Plum4 (Plumbing) rented by Regular4
+Wood3 (Woodwork) rented by Regular4
+Wood5 (Woodwork) rented by Casual3
+Yard3 (Yardwork) rented by Regular2
+Yard2 (Yardwork) rented by Regular4
+#Active rentals = 24
+=====================================
+
+
+--------- Left Rental List ---------
+#Left rentals = 0
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 26 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+Plum1
+	| Tool type : Plumbing
+	| price : 84.0
+	| Renting day : 7
+	| Rented by : Business3
+Wood2
+	| Tool type : Woodwork
+	| price : 91.0
+	| Renting day : 7
+	| Rented by : Business3
+Wood4 + 1 protective gear package + 1 protective gear package + 1 extension cord + 1 extension cord + 1 protective gear package
+	| Tool type : Woodwork
+	| price : 95.40000000000002
+	| Renting day : 7
+	| Rented by : Business3
+Conc5 + 1 protective gear package + 1 protective gear package + 1 extension cord + 1 protective gear package
+	| Tool type : Concrete
+	| price : 46.00000000000001
+	| Renting day : 4
+	| Rented by : Regular1
+Plum2 + 1 protective gear package + 1 protective gear package + 1 extension cord
+	| Tool type : Plumbing
+	| price : 50.099999999999994
+	| Renting day : 4
+	| Rented by : Regular1
+Wood5 + 1 protective gear package + 1 extension cord + 1 extension cord + 1 protective gear package + 1 extension cord + 1 extension cord
+	| Tool type : Woodwork
+	| price : 29.999999999999993
+	| Renting day : 2
+	| Rented by : Casual3
+#Completed rentals = 6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 26): $118.40
+
+========= Active Rental List =========
+Plum5 (Plumbing) rented by Business1
+Wood1 (Woodwork) rented by Business1
+Yard1 (Yardwork) rented by Business1
+Pain1 (Painting) rented by Business1
+Pain5 (Painting) rented by Business1
+Conc1 (Concrete) rented by Business1
+Pain2 (Painting) rented by Regular2
+Pain3 (Painting) rented by Business4
+Pain4 (Painting) rented by Business4
+Conc2 (Concrete) rented by Business4
+Conc3 (Concrete) rented by Business2
+Conc4 (Concrete) rented by Business2
+Yard4 (Yardwork) rented by Business2
+Plum3 (Plumbing) rented by Regular4
+Plum4 (Plumbing) rented by Regular4
+Wood3 (Woodwork) rented by Regular4
+Yard3 (Yardwork) rented by Regular2
+Yard2 (Yardwork) rented by Regular4
+Conc5 (Concrete) rented by Regular2
+Plum1 (Plumbing) rented by Regular2
+#Active rentals = 20
+=====================================
+
+
+--------- Left Rental List ---------
+Plum2 (Plumbing)
+Wood2 (Woodwork)
+Wood4 (Woodwork)
+Wood5 (Woodwork)
+#Left rentals = 4
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 27 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+#Completed rentals = 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 27): $187.40
+
+========= Active Rental List =========
+Plum5 (Plumbing) rented by Business1
+Wood1 (Woodwork) rented by Business1
+Yard1 (Yardwork) rented by Business1
+Pain1 (Painting) rented by Business1
+Pain5 (Painting) rented by Business1
+Conc1 (Concrete) rented by Business1
+Pain2 (Painting) rented by Regular2
+Pain3 (Painting) rented by Business4
+Pain4 (Painting) rented by Business4
+Conc2 (Concrete) rented by Business4
+Conc3 (Concrete) rented by Business2
+Conc4 (Concrete) rented by Business2
+Yard4 (Yardwork) rented by Business2
+Plum3 (Plumbing) rented by Regular4
+Plum4 (Plumbing) rented by Regular4
+Wood3 (Woodwork) rented by Regular4
+Yard3 (Yardwork) rented by Regular2
+Yard2 (Yardwork) rented by Regular4
+Conc5 (Concrete) rented by Regular2
+Plum1 (Plumbing) rented by Regular2
+Plum2 (Plumbing) rented by Regular3
+Wood2 (Woodwork) rented by Regular3
+Wood4 (Woodwork) rented by Casual4
+Wood5 (Woodwork) rented by Casual4
+#Active rentals = 24
+=====================================
+
+
+--------- Left Rental List ---------
+#Left rentals = 0
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 28 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+Plum5 + 1 protective gear package + 1 extension cord + 1 extension cord + 1 protective gear package + 1 protective gear package
+	| Tool type : Plumbing
+	| price : 87.30000000000001
+	| Renting day : 7
+	| Rented by : Business1
+Wood1 + 1 extension cord + 1 extension cord
+	| Tool type : Woodwork
+	| price : 91.80000000000001
+	| Renting day : 7
+	| Rented by : Business1
+Yard1
+	| Tool type : Yardwork
+	| price : 98.0
+	| Renting day : 7
+	| Rented by : Business1
+Pain2 + 1 protective gear package + 1 extension cord + 1 protective gear package + 1 protective gear package + 1 extension cord
+	| Tool type : Painting
+	| price : 51.099999999999994
+	| Renting day : 5
+	| Rented by : Regular2
+Yard3 + 1 protective gear package + 1 protective gear package + 1 extension cord
+	| Tool type : Yardwork
+	| price : 59.5
+	| Renting day : 4
+	| Rented by : Regular2
+#Completed rentals = 5
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 28): $291.20
+
+========= Active Rental List =========
+Pain1 (Painting) rented by Business1
+Pain5 (Painting) rented by Business1
+Conc1 (Concrete) rented by Business1
+Pain3 (Painting) rented by Business4
+Pain4 (Painting) rented by Business4
+Conc2 (Concrete) rented by Business4
+Conc3 (Concrete) rented by Business2
+Conc4 (Concrete) rented by Business2
+Yard4 (Yardwork) rented by Business2
+Plum3 (Plumbing) rented by Regular4
+Plum4 (Plumbing) rented by Regular4
+Wood3 (Woodwork) rented by Regular4
+Yard2 (Yardwork) rented by Regular4
+Conc5 (Concrete) rented by Regular2
+Plum1 (Plumbing) rented by Regular2
+Plum2 (Plumbing) rented by Regular3
+Wood2 (Woodwork) rented by Regular3
+Wood4 (Woodwork) rented by Casual4
+Wood5 (Woodwork) rented by Casual4
+Pain2 (Painting) rented by Regular3
+Plum5 (Plumbing) rented by Regular3
+Wood1 (Woodwork) rented by Regular3
+Yard1 (Yardwork) rented by Regular1
+Yard3 (Yardwork) rented by Regular1
+#Active rentals = 24
+=====================================
+
+
+--------- Left Rental List ---------
+#Left rentals = 0
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 29 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+Pain1 + 1 protective gear package + 1 extension cord + 1 extension cord + 1 extension cord + 1 extension cord + 1 protective gear package
+	| Tool type : Painting
+	| price : 70.99999999999997
+	| Renting day : 7
+	| Rented by : Business1
+Pain5 + 1 extension cord + 1 protective gear package + 1 extension cord
+	| Tool type : Painting
+	| price : 70.49999999999999
+	| Renting day : 7
+	| Rented by : Business1
+Conc1 + 1 extension cord + 1 protective gear package + 1 protective gear package + 1 extension cord + 1 protective gear package + 1 protective gear package
+	| Tool type : Concrete
+	| price : 79.79999999999998
+	| Renting day : 7
+	| Rented by : Business1
+Plum3 + 1 protective gear package + 1 protective gear package + 1 protective gear package + 1 protective gear package + 1 extension cord
+	| Tool type : Plumbing
+	| price : 63.89999999999999
+	| Renting day : 5
+	| Rented by : Regular4
+Plum4 + 1 protective gear package + 1 extension cord + 1 extension cord + 1 protective gear package + 1 extension cord
+	| Tool type : Plumbing
+	| price : 62.69999999999999
+	| Renting day : 5
+	| Rented by : Regular4
+Wood3
+	| Tool type : Woodwork
+	| price : 65.0
+	| Renting day : 5
+	| Rented by : Regular4
+Wood4 + 1 extension cord + 1 extension cord
+	| Tool type : Woodwork
+	| price : 26.799999999999997
+	| Renting day : 2
+	| Rented by : Casual4
+Wood5 + 1 protective gear package + 1 protective gear package + 1 extension cord + 1 protective gear package + 1 extension cord + 1 protective gear package
+	| Tool type : Woodwork
+	| price : 31.599999999999994
+	| Renting day : 2
+	| Rented by : Casual4
+#Completed rentals = 8
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 29): $373.50
+
+========= Active Rental List =========
+Pain3 (Painting) rented by Business4
+Pain4 (Painting) rented by Business4
+Conc2 (Concrete) rented by Business4
+Conc3 (Concrete) rented by Business2
+Conc4 (Concrete) rented by Business2
+Yard4 (Yardwork) rented by Business2
+Yard2 (Yardwork) rented by Regular4
+Conc5 (Concrete) rented by Regular2
+Plum1 (Plumbing) rented by Regular2
+Plum2 (Plumbing) rented by Regular3
+Wood2 (Woodwork) rented by Regular3
+Pain2 (Painting) rented by Regular3
+Plum5 (Plumbing) rented by Regular3
+Wood1 (Woodwork) rented by Regular3
+Yard1 (Yardwork) rented by Regular1
+Yard3 (Yardwork) rented by Regular1
+Pain1 (Painting) rented by Business3
+Pain5 (Painting) rented by Business3
+Conc1 (Concrete) rented by Business3
+Plum3 (Plumbing) rented by Regular1
+Plum4 (Plumbing) rented by Regular1
+Wood3 (Woodwork) rented by Regular1
+Wood4 (Woodwork) rented by Casual1
+Wood5 (Woodwork) rented by Casual2
+#Active rentals = 24
+=====================================
+
+
+--------- Left Rental List ---------
+#Left rentals = 0
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 30 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+Pain3
+	| Tool type : Painting
+	| price : 70.0
+	| Renting day : 7
+	| Rented by : Business4
+Pain4 + 1 protective gear package + 1 protective gear package + 1 extension cord + 1 protective gear package
+	| Tool type : Painting
+	| price : 70.99999999999999
+	| Renting day : 7
+	| Rented by : Business4
+Conc2 + 1 extension cord
+	| Tool type : Concrete
+	| price : 77.2
+	| Renting day : 7
+	| Rented by : Business4
+Conc3 + 1 extension cord + 1 protective gear package + 1 extension cord + 1 extension cord + 1 extension cord
+	| Tool type : Concrete
+	| price : 78.4
+	| Renting day : 7
+	| Rented by : Business2
+Conc4 + 1 extension cord + 1 extension cord + 1 extension cord + 1 extension cord + 1 protective gear package
+	| Tool type : Concrete
+	| price : 78.4
+	| Renting day : 7
+	| Rented by : Business2
+Yard4 + 1 extension cord
+	| Tool type : Yardwork
+	| price : 98.5
+	| Renting day : 7
+	| Rented by : Business2
+Yard2 + 1 protective gear package
+	| Tool type : Yardwork
+	| price : 71.5
+	| Renting day : 5
+	| Rented by : Regular4
+Wood4 + 1 extension cord + 1 extension cord + 1 extension cord + 1 extension cord
+	| Tool type : Woodwork
+	| price : 14.600000000000001
+	| Renting day : 1
+	| Rented by : Casual1
+Wood5 + 1 protective gear package + 1 extension cord + 1 extension cord + 1 extension cord + 1 protective gear package
+	| Tool type : Woodwork
+	| price : 16.6
+	| Renting day : 1
+	| Rented by : Casual2
+#Completed rentals = 9
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 30): $212.80
+
+========= Active Rental List =========
+Conc5 (Concrete) rented by Regular2
+Plum1 (Plumbing) rented by Regular2
+Plum2 (Plumbing) rented by Regular3
+Wood2 (Woodwork) rented by Regular3
+Pain2 (Painting) rented by Regular3
+Plum5 (Plumbing) rented by Regular3
+Wood1 (Woodwork) rented by Regular3
+Yard1 (Yardwork) rented by Regular1
+Yard3 (Yardwork) rented by Regular1
+Pain1 (Painting) rented by Business3
+Pain5 (Painting) rented by Business3
+Conc1 (Concrete) rented by Business3
+Plum3 (Plumbing) rented by Regular1
+Plum4 (Plumbing) rented by Regular1
+Wood3 (Woodwork) rented by Regular1
+Pain3 (Painting) rented by Casual3
+Pain4 (Painting) rented by Casual3
+Conc2 (Concrete) rented by Casual1
+Conc3 (Concrete) rented by Casual1
+Conc4 (Concrete) rented by Regular4
+Wood4 (Woodwork) rented by Regular4
+Wood5 (Woodwork) rented by Regular3
+#Active rentals = 22
+=====================================
+
+
+--------- Left Rental List ---------
+Yard2 (Yardwork)
+Yard4 (Yardwork)
+#Left rentals = 2
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 31 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+Conc5 + 1 extension cord + 1 extension cord
+	| Tool type : Concrete
+	| price : 55.400000000000006
+	| Renting day : 5
+	| Rented by : Regular2
+Plum1 + 1 protective gear package + 1 protective gear package + 1 extension cord + 1 protective gear package
+	| Tool type : Plumbing
+	| price : 62.99999999999999
+	| Renting day : 5
+	| Rented by : Regular2
+Pain3 + 1 extension cord
+	| Tool type : Painting
+	| price : 10.1
+	| Renting day : 1
+	| Rented by : Casual3
+Pain4 + 1 extension cord + 1 extension cord + 1 extension cord
+	| Tool type : Painting
+	| price : 10.299999999999999
+	| Renting day : 1
+	| Rented by : Casual3
+Conc2 + 1 protective gear package + 1 extension cord + 1 extension cord + 1 extension cord + 1 extension cord + 1 protective gear package
+	| Tool type : Concrete
+	| price : 12.999999999999996
+	| Renting day : 1
+	| Rented by : Casual1
+Conc3
+	| Tool type : Concrete
+	| price : 11.0
+	| Renting day : 1
+	| Rented by : Casual1
+#Completed rentals = 6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 31): $132.60
+
+========= Active Rental List =========
+Plum2 (Plumbing) rented by Regular3
+Wood2 (Woodwork) rented by Regular3
+Pain2 (Painting) rented by Regular3
+Plum5 (Plumbing) rented by Regular3
+Wood1 (Woodwork) rented by Regular3
+Yard1 (Yardwork) rented by Regular1
+Yard3 (Yardwork) rented by Regular1
+Pain1 (Painting) rented by Business3
+Pain5 (Painting) rented by Business3
+Conc1 (Concrete) rented by Business3
+Plum3 (Plumbing) rented by Regular1
+Plum4 (Plumbing) rented by Regular1
+Wood3 (Woodwork) rented by Regular1
+Conc4 (Concrete) rented by Regular4
+Wood4 (Woodwork) rented by Regular4
+Wood5 (Woodwork) rented by Regular3
+Pain3 (Painting) rented by Regular4
+Pain4 (Painting) rented by Casual2
+Conc2 (Concrete) rented by Casual2
+Conc3 (Concrete) rented by Casual3
+Conc5 (Concrete) rented by Casual3
+Plum1 (Plumbing) rented by Casual4
+Yard2 (Yardwork) rented by Casual4
+#Active rentals = 23
+=====================================
+
+
+--------- Left Rental List ---------
+Yard4 (Yardwork)
+#Left rentals = 1
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 32 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+Plum2 + 1 protective gear package + 1 extension cord
+	| Tool type : Plumbing
+	| price : 61.199999999999996
+	| Renting day : 5
+	| Rented by : Regular3
+Wood2 + 1 extension cord + 1 extension cord + 1 extension cord + 1 extension cord + 1 protective gear package
+	| Tool type : Woodwork
+	| price : 67.80000000000003
+	| Renting day : 5
+	| Rented by : Regular3
+Yard1 + 1 extension cord + 1 protective gear package + 1 extension cord + 1 extension cord
+	| Tool type : Yardwork
+	| price : 59.0
+	| Renting day : 4
+	| Rented by : Regular1
+Yard3
+	| Tool type : Yardwork
+	| price : 56.0
+	| Renting day : 4
+	| Rented by : Regular1
+Plum3 + 1 protective gear package + 1 protective gear package + 1 protective gear package + 1 extension cord + 1 protective gear package
+	| Tool type : Plumbing
+	| price : 39.89999999999999
+	| Renting day : 3
+	| Rented by : Regular1
+Plum4 + 1 extension cord + 1 protective gear package + 1 protective gear package + 1 extension cord + 1 extension cord + 1 protective gear package
+	| Tool type : Plumbing
+	| price : 39.59999999999999
+	| Renting day : 3
+	| Rented by : Regular1
+Wood3 + 1 extension cord + 1 extension cord + 1 protective gear package + 1 protective gear package + 1 extension cord + 1 extension cord
+	| Tool type : Woodwork
+	| price : 43.0
+	| Renting day : 3
+	| Rented by : Regular1
+Conc3 + 1 extension cord + 1 extension cord + 1 protective gear package + 1 extension cord + 1 extension cord
+	| Tool type : Concrete
+	| price : 12.399999999999997
+	| Renting day : 1
+	| Rented by : Casual3
+Conc5 + 1 protective gear package + 1 extension cord + 1 protective gear package
+	| Tool type : Concrete
+	| price : 12.399999999999999
+	| Renting day : 1
+	| Rented by : Casual3
+Plum1 + 1 protective gear package + 1 extension cord + 1 protective gear package + 1 protective gear package
+	| Tool type : Plumbing
+	| price : 15.000000000000002
+	| Renting day : 1
+	| Rented by : Casual4
+Yard2 + 1 extension cord + 1 extension cord + 1 protective gear package + 1 protective gear package
+	| Tool type : Yardwork
+	| price : 18.0
+	| Renting day : 1
+	| Rented by : Casual4
+#Completed rentals = 11
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 32): $290.10
+
+========= Active Rental List =========
+Pain2 (Painting) rented by Regular3
+Plum5 (Plumbing) rented by Regular3
+Wood1 (Woodwork) rented by Regular3
+Pain1 (Painting) rented by Business3
+Pain5 (Painting) rented by Business3
+Conc1 (Concrete) rented by Business3
+Conc4 (Concrete) rented by Regular4
+Wood4 (Woodwork) rented by Regular4
+Wood5 (Woodwork) rented by Regular3
+Pain3 (Painting) rented by Regular4
+Pain4 (Painting) rented by Casual2
+Conc2 (Concrete) rented by Casual2
+Conc3 (Concrete) rented by Business2
+Conc5 (Concrete) rented by Business2
+Plum1 (Plumbing) rented by Business2
+Plum2 (Plumbing) rented by Casual1
+Plum3 (Plumbing) rented by Casual1
+#Active rentals = 17
+=====================================
+
+
+--------- Left Rental List ---------
+Plum4 (Plumbing)
+Wood2 (Woodwork)
+Wood3 (Woodwork)
+Yard1 (Yardwork)
+Yard2 (Yardwork)
+Yard3 (Yardwork)
+Yard4 (Yardwork)
+#Left rentals = 7
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 33 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+Pain2
+	| Tool type : Painting
+	| price : 50.0
+	| Renting day : 5
+	| Rented by : Regular3
+Plum5 + 1 extension cord + 1 extension cord + 1 extension cord + 1 extension cord
+	| Tool type : Plumbing
+	| price : 61.19999999999999
+	| Renting day : 5
+	| Rented by : Regular3
+Wood1
+	| Tool type : Woodwork
+	| price : 65.0
+	| Renting day : 5
+	| Rented by : Regular3
+Pain4 + 1 protective gear package
+	| Tool type : Painting
+	| price : 20.3
+	| Renting day : 2
+	| Rented by : Casual2
+Conc2 + 1 extension cord + 1 extension cord + 1 protective gear package + 1 extension cord
+	| Tool type : Concrete
+	| price : 23.2
+	| Renting day : 2
+	| Rented by : Casual2
+#Completed rentals = 5
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 33): $893.70
+
+========= Active Rental List =========
+Pain1 (Painting) rented by Business3
+Pain5 (Painting) rented by Business3
+Conc1 (Concrete) rented by Business3
+Conc4 (Concrete) rented by Regular4
+Wood4 (Woodwork) rented by Regular4
+Wood5 (Woodwork) rented by Regular3
+Pain3 (Painting) rented by Regular4
+Conc3 (Concrete) rented by Business2
+Conc5 (Concrete) rented by Business2
+Plum1 (Plumbing) rented by Business2
+Plum2 (Plumbing) rented by Casual1
+Plum3 (Plumbing) rented by Casual1
+Pain2 (Painting) rented by Casual2
+Pain4 (Painting) rented by Casual2
+Conc2 (Concrete) rented by Business3
+Plum4 (Plumbing) rented by Business3
+Plum5 (Plumbing) rented by Business3
+Wood1 (Woodwork) rented by Business4
+Wood2 (Woodwork) rented by Business4
+Wood3 (Woodwork) rented by Business4
+Yard1 (Yardwork) rented by Regular3
+Yard2 (Yardwork) rented by Business1
+Yard3 (Yardwork) rented by Business1
+Yard4 (Yardwork) rented by Business1
+#Active rentals = 24
+=====================================
+
+
+--------- Left Rental List ---------
+#Left rentals = 0
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 34 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+Conc4 + 1 extension cord
+	| Tool type : Concrete
+	| price : 44.2
+	| Renting day : 4
+	| Rented by : Regular4
+Wood4 + 1 protective gear package + 1 extension cord
+	| Tool type : Woodwork
+	| price : 53.6
+	| Renting day : 4
+	| Rented by : Regular4
+Pain3 + 1 protective gear package + 1 protective gear package + 1 protective gear package + 1 protective gear package + 1 extension cord
+	| Tool type : Painting
+	| price : 31.300000000000004
+	| Renting day : 3
+	| Rented by : Regular4
+Plum2
+	| Tool type : Plumbing
+	| price : 24.0
+	| Renting day : 2
+	| Rented by : Casual1
+Plum3 + 1 extension cord
+	| Tool type : Plumbing
+	| price : 24.3
+	| Renting day : 2
+	| Rented by : Casual1
+Pain2 + 1 protective gear package + 1 extension cord + 1 extension cord + 1 extension cord + 1 protective gear package + 1 extension cord
+	| Tool type : Painting
+	| price : 11.0
+	| Renting day : 1
+	| Rented by : Casual2
+Pain4
+	| Tool type : Painting
+	| price : 10.0
+	| Renting day : 1
+	| Rented by : Casual2
+#Completed rentals = 7
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 34): $0.00
+
+========= Active Rental List =========
+Pain1 (Painting) rented by Business3
+Pain5 (Painting) rented by Business3
+Conc1 (Concrete) rented by Business3
+Wood5 (Woodwork) rented by Regular3
+Conc3 (Concrete) rented by Business2
+Conc5 (Concrete) rented by Business2
+Plum1 (Plumbing) rented by Business2
+Conc2 (Concrete) rented by Business3
+Plum4 (Plumbing) rented by Business3
+Plum5 (Plumbing) rented by Business3
+Wood1 (Woodwork) rented by Business4
+Wood2 (Woodwork) rented by Business4
+Wood3 (Woodwork) rented by Business4
+Yard1 (Yardwork) rented by Regular3
+Yard2 (Yardwork) rented by Business1
+Yard3 (Yardwork) rented by Business1
+Yard4 (Yardwork) rented by Business1
+#Active rentals = 17
+=====================================
+
+
+--------- Left Rental List ---------
+Pain2 (Painting)
+Pain3 (Painting)
+Pain4 (Painting)
+Conc4 (Concrete)
+Plum2 (Plumbing)
+Plum3 (Plumbing)
+Wood4 (Woodwork)
+#Left rentals = 7
+------------------------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Day 35 starts ++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+~~~~~~~~~ Completed Rental List ~~~~~~~~~
+Wood5 + 1 protective gear package + 1 protective gear package + 1 extension cord + 1 protective gear package + 1 protective gear package + 1 extension cord
+	| Tool type : Woodwork
+	| price : 70.60000000000002
+	| Renting day : 5
+	| Rented by : Regular3
+#Completed rentals = 1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sales (Day 35): $271.50
+
+========= Active Rental List =========
+Pain1 (Painting) rented by Business3
+Pain5 (Painting) rented by Business3
+Conc1 (Concrete) rented by Business3
+Conc3 (Concrete) rented by Business2
+Conc5 (Concrete) rented by Business2
+Plum1 (Plumbing) rented by Business2
+Conc2 (Concrete) rented by Business3
+Plum4 (Plumbing) rented by Business3
+Plum5 (Plumbing) rented by Business3
+Wood1 (Woodwork) rented by Business4
+Wood2 (Woodwork) rented by Business4
+Wood3 (Woodwork) rented by Business4
+Yard1 (Yardwork) rented by Regular3
+Yard2 (Yardwork) rented by Business1
+Yard3 (Yardwork) rented by Business1
+Yard4 (Yardwork) rented by Business1
+Pain2 (Painting) rented by Casual3
+Pain3 (Painting) rented by Casual3
+Pain4 (Painting) rented by Business3
+Conc4 (Concrete) rented by Business3
+Plum2 (Plumbing) rented by Business3
+#Active rentals = 21
+=====================================
+
+
+--------- Left Rental List ---------
+Plum3 (Plumbing)
+Wood4 (Woodwork)
+Wood5 (Woodwork)
+#Left rentals = 3
+------------------------------------
+
+
+##############################################
+################# SUMMARY ####################
+##############################################
+
+Total sales = $10328.60
+
+
+#Rentals = 198
+	#Paintings = 41
+	#Concretes = 34
+	#Plumbings = 40
+	#Woodwords = 44
+	#Yardworks = 39
+
+
+#Customers = 198
+	#Casual Customers = 70
+	#Business Customers = 75
+	#Regular Customers = 53
+
+Process finished with exit code 0

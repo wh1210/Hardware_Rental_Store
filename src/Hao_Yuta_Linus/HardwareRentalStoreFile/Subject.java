@@ -3,7 +3,11 @@ package Hao_Yuta_Linus.HardwareRentalStoreFile;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
-
+/** Create an abstract class Subject for observer classes
+ * which were updated and notified automatically
+ * @author Hao_Yuta_Linus
+ * @since 2019-10-18
+ */
 public abstract class Subject {
     protected boolean isNotification;
     private ArrayList<Observer> observers = new ArrayList<Observer>();

@@ -1,7 +1,10 @@
 package Hao_Yuta_Linus.HardwareRentalStoreFile;
 
 import static Hao_Yuta_Linus.HardwareRentalStoreFile.Constants.*;
-
+/** Create a inherited class base on OptionalTool
+ * @author Hao_Yuta_Linus
+ * @since 2019-10-18
+ */
 
 public class GearPackage extends OptionalTool {
     protected Tool tool;
@@ -11,6 +14,7 @@ public class GearPackage extends OptionalTool {
         this.tool = tool;
     }
 
+    // Method for getting price of GearPackage
     @Override
     public double getPrice() {
         if (this.getCategory().equals(CONCRETE)) {
@@ -26,30 +30,35 @@ public class GearPackage extends OptionalTool {
         }
     }
 
+    // Method for getting name of GearPackage
     @Override
     public String getName() {
         return tool.getName() + " + 1 protective gear package";
     }
 
+    // Return the GearPackage's category
     @Override
     public String getCategory() {
         return this.tool.getCategory();
     }
 
+    // Set the rent days for GearPackage
     @Override
     public void setDays(int days) {
     }
-
+    // Method for get each GearPackage's rental days
     @Override
     public int getDay() {
         return tool.getDay();
     }
 
+    // Method for set each GearPackage's name
     @Override
     public String getProductName() {
         return tool.getProductName();
     }
 
+    // Method for get each GearPackage's renting person's name
     @Override
     public String getRentingPersonName() {
         return tool.getRentingPersonName();
