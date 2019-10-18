@@ -6,5 +6,10 @@ Team Member:
  * Mengyu Wu
  * Hao Wu
  
+PDF: Project3 ([project3.pdf](/outfile.txt))
+ 
+ 
 ### Instruction for running the code:
-Our code is base on Java8 version. To run the code, go to **Hardware_Rental_Store/src/Hao_Yuta_Linus/HardwareRentalStoreFile/HardwareRenalStore.java**, which contains the main function. Run this file, and you will get a bunch of output in the console ([outfile.txt](/outfile.txt)).
+Our code is base on Java8 version and Test Framework :JUnit 5. Importing (JUnit 5) to library before run test class.   
+To run the code, go to **Hardware_Rental_Store/src/Hao_Yuta_Linus/HardwareRentalStoreFile/Simulator.java**  
+ which contains the main function. Run this file, and you will get a bunch of output in the console ([outfile.txt](/outfile.txt)).
