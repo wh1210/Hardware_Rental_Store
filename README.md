@@ -6,7 +6,7 @@ Team Member:
  * Mengyu Wu
  * Hao Wu
  
-PDF: Project3 ([Project3.pdf](/Project3.pdf))
+PDF: Project3 ([Project3.pdf](/Project 3.pdf))
  
  
 ### Instruction for running the code:
